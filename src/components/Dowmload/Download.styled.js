@@ -8,6 +8,7 @@ export const DownloadLink = styled.a`
   background: ${({ theme }) => theme.colors.black_btn};
 `;
 export const DownloadLinkBox = styled.div`
+box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.25);
   display: flex;
   justify-content: center;
   width: 100%;
