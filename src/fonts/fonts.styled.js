@@ -10,6 +10,14 @@ import { createGlobalStyle } from 'styled-components';
 // }
 // `;
 
+
+
+import OpenSans_SemiBold from '../fonts/poppins-SemiBold/Poppins-SemiBold.woff'
+import OpenSans_SemiBold from '../fonts/poppins-SemiBold/Poppins-SemiBold.woff2'
+
+import OpenSans_Regular from '../fonts/opensans-regular/OpenSans-VariableFont_wdth,wght.woff'
+import OpenSans_Regular from '../fonts/opensans-regular/OpenSans-VariableFont_wdth,wght.woff2'
+
 import Lato_Bold from '../fonts/lato-bold/Lato-Bold.woff';
 import Lato_Bold2 from '../fonts/lato-bold/Lato-Bold.woff2';
 
