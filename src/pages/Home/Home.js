@@ -1,8 +1,7 @@
-import Hero from 'components/Home/Hero';
-import Toolbar from 'components/Home/Toolbar';
-import Conference from 'components/Home/Conference';
-import Support from 'components/Home/Support';
-import Accordion from 'components/Accordion';
+import Hero from 'components/Home/Hero/Hero';
+import Toolbar from 'components/Home/Toolbar/Toolbar';
+import Conference from 'components/Home/Conference/Conference';
+import Support from 'components/Home/Support/Support';
 import { ScrollToTop } from 'hooks/ScrollToTop';
 
 const Home = () => {
@@ -11,7 +10,6 @@ const Home = () => {
     <>
       <main>
         <Hero />
-        <Accordion />
         <Toolbar />
         {/* <MediaQuery device={'mobile'}>
           <FeaturesAccordion />
