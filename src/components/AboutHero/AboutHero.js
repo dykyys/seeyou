@@ -18,7 +18,7 @@ import GlobalBox from '../GlobalBox';
 import Founders from 'image/about/founders.svg';
 import CoFounders from 'image/about/team.svg';
 import Share from 'image/about/shareholders.svg';
-import Ukraine from 'image/about/ukraine.svg';
+import Ukraine from 'image/about/Location.svg';
 
 const AboutHero = () => {
   return (

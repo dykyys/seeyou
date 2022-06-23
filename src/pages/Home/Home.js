@@ -2,6 +2,7 @@ import Hero from 'components/Home/Hero/Hero';
 import Toolbar from 'components/Home/Toolbar/Toolbar';
 import Conference from 'components/Home/Conference/Conference';
 import Support from 'components/Home/Support/Support';
+import Provider from 'components/Home/Providers/Providers'
 import { ScrollToTop } from 'hooks/ScrollToTop';
 
 const Home = () => {
@@ -10,6 +11,7 @@ const Home = () => {
     <>
       <main>
         <Hero />
+        <Provider />
         <Toolbar />
         {/* <MediaQuery device={'mobile'}>
           <FeaturesAccordion />

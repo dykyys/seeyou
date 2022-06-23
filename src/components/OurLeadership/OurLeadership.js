@@ -1,5 +1,5 @@
-import { SectionTitle, OurDiscription,SectionTitleSub,Light,Box, } from './OurLeadership.styled';
-import GlobalSection from '../Section';
+import { SectionTitle, OurDiscription,SectionTitleSub,Light,Box, GlobalSection } from './OurLeadership.styled';
+
 import Container from '../Container';
 
 const OurLeadership = () => {

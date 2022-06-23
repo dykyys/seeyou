@@ -22,6 +22,7 @@ import MediaQuery from '../MediaQuery';
 // import DownloadLink from '../DownloadLink';
 // import ModalForMail from '../ModalForMail';
 import PopupHeader from '../PopupHeader';
+import PopupPro from '../PopupProviders';
 // import DownloadMobileFooter from '../DownloadMobileFooter';
 // import styles from './style.modules.css';
 
@@ -87,9 +88,7 @@ const AppBar = () => {
                 </Link>
               </NavItem>
               <NavItem>
-                <Link to="/co-ownership" onClick={toggleMenu}>
-                  Conference Providers
-                </Link>
+                  <PopupPro />
               </NavItem>
               <NavItem>
                 <Link to="/faq" onClick={toggleMenu}>

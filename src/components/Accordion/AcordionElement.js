@@ -54,6 +54,7 @@ function Acord() {
                         _focus={{
                           boxShadow: 'none',
                         }}
+                        paddingRight="40px"
                       >
                         <Box flex="1" textAlign="left">
                           <Questions>Is SEEYOU entirely free?</Questions>
@@ -87,6 +88,10 @@ function Acord() {
                           backgroundColor: 'transparent',
                           boxShadow: 'none',
                         }}
+                        _focus={{
+                          boxShadow: 'none',
+                        }}
+                        paddingRight="40px"
                       >
                         <Box flex="1" textAlign="left">
                           <Questions>How does SEEYOU make money?</Questions>
@@ -120,6 +125,10 @@ function Acord() {
                           backgroundColor: 'transparent',
                           boxShadow: 'none',
                         }}
+                        _focus={{
+                          boxShadow: 'none',
+                        }}
+                        paddingRight="40px"
                       >
                         <Box flex="1" textAlign="left">
                           <Questions>
@@ -211,6 +220,10 @@ function Acord() {
                           backgroundColor: 'transparent',
                           boxShadow: 'none',
                         }}
+                        _focus={{
+                          boxShadow: 'none',
+                        }}
+                        paddingRight="40px"
                       >
                         <Box flex="1" textAlign="left">
                           <Questions>Is storing conferences free?</Questions>
@@ -244,6 +257,10 @@ function Acord() {
                           backgroundColor: 'transparent',
                           boxShadow: 'none',
                         }}
+                        _focus={{
+                          boxShadow: 'none',
+                        }}
+                        paddingRight="40px"
                       >
                         <Box flex="1" textAlign="left">
                           <Questions>Is storing conferences safe?</Questions>
@@ -281,6 +298,10 @@ function Acord() {
                           backgroundColor: 'transparent',
                           boxShadow: 'none',
                         }}
+                        _focus={{
+                          boxShadow: 'none',
+                        }}
+                        paddingRight="40px"
                       >
                         <Box flex="1" textAlign="left">
                           <Questions>
@@ -321,6 +342,10 @@ function Acord() {
                           backgroundColor: 'transparent',
                           boxShadow: 'none',
                         }}
+                        _focus={{
+                          boxShadow: 'none',
+                        }}
+                        paddingRight="40px"
                       >
                         <Box flex="1" textAlign="left">
                           <Questions>
@@ -360,6 +385,10 @@ function Acord() {
                           backgroundColor: 'transparent',
                           boxShadow: 'none',
                         }}
+                        _focus={{
+                          boxShadow: 'none',
+                        }}
+                        paddingRight="40px"
                       >
                         <Box flex="1" textAlign="left">
                           <Questions>
@@ -398,6 +427,10 @@ function Acord() {
                           backgroundColor: 'transparent',
                           boxShadow: 'none',
                         }}
+                        _focus={{
+                          boxShadow: 'none',
+                        }}
+                        paddingRight="40px"
                       >
                         <Box flex="1" textAlign="left">
                           <Questions>
@@ -438,6 +471,10 @@ function Acord() {
                           backgroundColor: 'transparent',
                           boxShadow: 'none',
                         }}
+                        _focus={{
+                          boxShadow: 'none',
+                        }}
+                        paddingRight="40px"
                       >
                         <Box flex="1" textAlign="left">
                           <Questions>Can I make notes on my phone?</Questions>
@@ -471,6 +508,10 @@ function Acord() {
                           backgroundColor: 'transparent',
                           boxShadow: 'none',
                         }}
+                        _focus={{
+                          boxShadow: 'none',
+                        }}
+                        paddingRight="40px"
                       >
                         <Box flex="1" textAlign="left">
                           <Questions>Are the notes encrypted?</Questions>
@@ -504,6 +545,10 @@ function Acord() {
                           backgroundColor: 'transparent',
                           boxShadow: 'none',
                         }}
+                        _focus={{
+                          boxShadow: 'none',
+                        }}
+                        paddingRight="40px"
                       >
                         <Box flex="1" textAlign="left">
                           <Questions>
@@ -552,6 +597,10 @@ function Acord() {
                           backgroundColor: 'transparent',
                           boxShadow: 'none',
                         }}
+                        _focus={{
+                          boxShadow: 'none',
+                        }}
+                        paddingRight="40px"
                       >
                         <Box flex="1" textAlign="left">
                           <Questions>
@@ -588,6 +637,10 @@ function Acord() {
                           backgroundColor: 'transparent',
                           boxShadow: 'none',
                         }}
+                        _focus={{
+                          boxShadow: 'none',
+                        }}
+                        paddingRight="40px"
                       >
                         <Box flex="1" textAlign="left">
                           <Questions>
@@ -627,6 +680,10 @@ function Acord() {
                           backgroundColor: 'transparent',
                           boxShadow: 'none',
                         }}
+                        _focus={{
+                          boxShadow: 'none',
+                        }}
+                        paddingRight="40px"
                       >
                         <Box flex="1" textAlign="left">
                           <Questions>How do I download SEEYOU?</Questions>
@@ -665,6 +722,10 @@ function Acord() {
                           backgroundColor: 'transparent',
                           boxShadow: 'none',
                         }}
+                        _focus={{
+                          boxShadow: 'none',
+                        }}
+                        paddingRight="40px"
                       >
                         <Box flex="1" textAlign="left">
                           <Questions>When will SEEYOU be available?</Questions>
@@ -678,10 +739,7 @@ function Acord() {
                     </h2>
                     <AccordionPanel pb={4}>
                       <Answer>
-                        SEEYOU will be available for limited release in version
-                        1.0.1 in the first week of May 2022. Open release,
-                        including SEEYOU for Chromebook and Linux, is on August
-                        1st, 2022
+                      SEEYOU is available from August 1st 2022
                       </Answer>
                     </AccordionPanel>
                   </>
@@ -703,6 +761,10 @@ function Acord() {
                           backgroundColor: 'transparent',
                           boxShadow: 'none',
                         }}
+                        _focus={{
+                          boxShadow: 'none',
+                        }}
+                        paddingRight="40px"
                       >
                         <Box flex="1" textAlign="left">
                           <Questions>
@@ -744,6 +806,10 @@ function Acord() {
                           backgroundColor: 'transparent',
                           boxShadow: 'none',
                         }}
+                        _focus={{
+                          boxShadow: 'none',
+                        }}
+                        paddingRight="40px"
                       >
                         <Box flex="1" textAlign="left">
                           <Questions>
@@ -784,6 +850,10 @@ function Acord() {
                           backgroundColor: 'transparent',
                           boxShadow: 'none',
                         }}
+                        _focus={{
+                          boxShadow: 'none',
+                        }}
+                        paddingRight="40px"
                       >
                         <Box flex="1" textAlign="left">
                           <Questions>
@@ -822,6 +892,10 @@ function Acord() {
                           backgroundColor: 'transparent',
                           boxShadow: 'none',
                         }}
+                        _focus={{
+                          boxShadow: 'none',
+                        }}
+                        paddingRight="40px"
                       >
                         <Box flex="1" textAlign="left">
                           <Questions>
@@ -857,6 +931,10 @@ function Acord() {
                           backgroundColor: 'transparent',
                           boxShadow: 'none',
                         }}
+                        _focus={{
+                          boxShadow: 'none',
+                        }}
+                        paddingRight="40px"
                       >
                         <Box flex="1" textAlign="left">
                           <Questions>

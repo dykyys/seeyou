@@ -23,7 +23,7 @@ import Library from 'image/conference/free.png';
 import Rewind from 'image/conference/real.png';
 import Calls from 'image/conference/Truly.png';
 import HomeScreen from 'image/conference/oneStop.png';
-import BrandsLogo from 'image/conference/brandsLogo.png';
+import BrandsLogo from 'image/conference/BrandsLogo.png';
 import BrandsLogoMobile from 'image/conference/BrandsLogoMobile.png';
 import coOwnership from 'image/conference/freeCoowner.png';
 import MediaQuery from '../../MediaQuery';
