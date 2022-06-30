@@ -1,9 +1,18 @@
 import styled from 'styled-components';
 import Container from '../../Container';
+import LeafProv from '../../../image/bg/leaf_providers.svg'
 
 
 export const GlobalSection = styled.section`
+
   padding: 60px 0;
+  ${({ theme }) => theme.device.tablet} {
+    padding: 60px 0 100px;
+  background-repeat: no-repeat;
+  background-position: bottom left ;
+  background-size: small;
+  background-image: url(${LeafProv});
+  }
  
 `;
 export const ProImg = styled.img`

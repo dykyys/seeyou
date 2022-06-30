@@ -57,6 +57,57 @@ function Acord() {
                         paddingRight="40px"
                       >
                         <Box flex="1" textAlign="left">
+                          <Questions>
+                            SEEYOU doesn't load properly. What should I do?
+                          </Questions>
+                        </Box>
+                        {isExpanded ? (
+                          <MinusIcon fontSize="12px" />
+                        ) : (
+                          <AddIcon fontSize="12px" />
+                        )}
+                      </AccordionButton>
+                    </h2>
+                    <AccordionPanel pb={4}>
+                      <Answer>
+                      <p>Please bear in mind that SEEYOU is still in Beta mode, and we constantly update and improve aspects of the app.</p>
+                      <br/><p>Sometimes this requires one of the following actions:</p><br/>
+                        <ul style={{
+                          listStyleType:'disc',
+                          paddingLeft:'20px',
+                          }}>
+                              <li>Please check your internet connection</li>
+                              <li>Alternatively, try reloading SEEYOU</li>
+                              <li>If still not working, please go to the <a href="/downloads" style={{color:'#007AFF', textDecorationLine: 'underline'}} >downloads</a> page and reinstall SEEYOU </li>
+                              <li>After reinstalling SEEYOU, we suggest also restarting your computer </li>
+                        </ul>
+                      </Answer>
+                    </AccordionPanel>
+                  </>
+                )}
+              </AccordionItem>
+            </Accordion>
+
+            <Accordion allowMultiple paddingBottom="16px">
+              <AccordionItem
+                border={'none'}
+                borderRadius="12px"
+                backgroundColor="#ECF1FE"
+              >
+                {({ isExpanded }) => (
+                  <>
+                    <h2>
+                      <AccordionButton
+                        _hover={{
+                          backgroundColor: 'transparent',
+                          boxShadow: 'none',
+                        }}
+                        _focus={{
+                          boxShadow: 'none',
+                        }}
+                        paddingRight="40px"
+                      >
+                        <Box flex="1" textAlign="left">
                           <Questions>Is SEEYOU entirely free?</Questions>
                         </Box>
                         {isExpanded ? (

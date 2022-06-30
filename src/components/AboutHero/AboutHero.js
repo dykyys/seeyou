@@ -18,7 +18,7 @@ import GlobalBox from '../GlobalBox';
 import Founders from 'image/about/founders.svg';
 import CoFounders from 'image/about/team.svg';
 import Share from 'image/about/shareholders.svg';
-import Ukraine from 'image/about/Location.svg';
+import Location from 'image/about/Location.svg';
 
 const AboutHero = () => {
   return (
@@ -47,10 +47,10 @@ const AboutHero = () => {
             <GlobalBox>
               <ConferenceTitle>Co-Founders and Team</ConferenceTitle>
               <ConferenceDiscription>
-              In the summer and fall of 2021, <ContactLink href='https://www.linkedin.com/in/sunderkimatrai/'>Sunder Kimatrai</ContactLink>, <ContactLink href='https://www.linkedin.com/in/twana-daniel/'>Twana Daniel</ContactLink>, and <ContactLink href="www.linkedin.com/in/helendomina">Helen Domina</ContactLink> joined as co-founders. In the spring of 2022, <ContactLink href='https://www.linkedin.com/in/per-kristian-spone-a78977105/'>Per Kristian Spone</ContactLink> completed the management group as CFO and Head of Risk Control
+              In the summer and fall of 2021, <ContactLink href='https://www.linkedin.com/in/sunderkimatrai/'>Sunder Kimatrai</ContactLink>, <ContactLink href='https://www.linkedin.com/in/twana-daniel/'>Twana Daniel</ContactLink>, and <ContactLink href="www.linkedin.com/in/helendomina">Helen Domina</ContactLink> joined as co-founders. In the spring of 2022, <ContactLink href='https://www.linkedin.com/in/per-kristian-spone-a78977105/'>Per Kristian Spone</ContactLink> completed the original management group as CFO and Head of Risk Control. Sunder and Helen have since originated SEEYOU Future Labs, our in-house product development team led by Jolien, while <ContactLink href='https://www.linkedin.com/in/olgalevytska/'>Olga Levytska</ContactLink> has graduated into the role of SEEYOU's Chief Design Officer
               </ConferenceDiscription>
               <ConferenceDiscription>
-              By now, SEEYOU has grown to a 30 pax tribe of 13 nationalities. All committed to being a force for good and providing a free global aggregator and communication platform in 48 languages, with two more to come
+              By now, SEEYOU has grown to a 32 pax tribe of 13  nationalities. All committed to being a force for good and providing a free global aggregator and communication platform in 48 languages, with two more to come
               </ConferenceDiscription>
             </GlobalBox>
             <GlobalImage>
@@ -83,7 +83,7 @@ const AboutHero = () => {
             </GlobalBox>
             <GlobalImage>
               <DivImg>
-                <Image src={Ukraine} alt="Founders" />
+                <Image src={Location} alt="Founders" />
               </DivImg>
             </GlobalImage>
           </ConferenceItem>

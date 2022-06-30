@@ -1,4 +1,29 @@
 import styled from 'styled-components';
+import Leaf2 from '../../image/bg/leaf2_bg.svg';
+import Cloud from '../../image/bg/cloud_bg.svg';
+import Cloud2 from '../../image/bg/cloud2_bg.svg';
+import Sfera2 from '../../image/bg/Sfers_left_coowner.svg';
+import Sfera from '../../image/bg/sfera_bg.svg';
+import Down from '../../image/bg/cloudDown_bg.svg';
+import Leaf from '../../image/bg/leaf_coowner.svg';
+
+export const Section = styled.section`
+padding: 100px 0px 120px;
+
+  ${({ theme }) => theme.device.tablet} {
+    padding: 180px 0px 160px;
+    background-repeat: no-repeat;
+    background-position: top 7% left, top 20% right, top 64% left, top 82% right, top 95% left  ;
+    background-size: small;
+    background-image: url(${Leaf}), url(${Sfera}), url(${Cloud}), url(${Cloud2}), url(${Sfera2}) ;
+  }
+  ${({ theme }) => theme.device.default} {
+    
+  }
+  ${({ theme }) => theme.device.desktop} {
+    
+  }
+`;
 
 export const ConferenceTitle = styled.h3`
   font-family: ${({ theme }) => theme.fonts.title.bold};

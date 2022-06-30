@@ -9,6 +9,7 @@ import {
   Image,
   OwnerUl,
   DivImg,
+  Section,
 } from './OwnershipHero.styled.js';
 import GlobalSection from '../Section';
 import Container from '../Container';
@@ -24,7 +25,7 @@ import Ads from 'image/co-owners/Ads.png';
 
 const OwnerHero = () => {
   return (
-    <GlobalSection>
+    <Section>
       <Container>
           <SectionTitle>CO-OWNERSHIP</SectionTitle>
           <SectionTitleSub>SEEYOU will be partly user-owned. An equivalent of 10% of the original 2.5 million shares will be gifted to active* users and recruiters during the first 25 months after Open Release on August 1st, 2022</SectionTitleSub>
@@ -151,7 +152,7 @@ const OwnerHero = () => {
         
         </OwnerUl>
       </Container>
-    </GlobalSection>
+    </Section>
   );
 };
 export default OwnerHero;

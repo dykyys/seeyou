@@ -5,16 +5,16 @@ const PopupPro= () => (
   <Popup
     content={
       <PopupBox>
-        <Link to="/providers-zoom"> Google Meet</Link>
-        <Link to="/providers-zoom"> Microsoft Teams</Link>
-        <Link to="/providers"> Webex by Cisco</Link>
+        <Link to="/"> Google Meet</Link>
+        <Link to="/"> Microsoft Teams</Link>
+        <Link to="/"> Webex by Cisco</Link>
         <Link to="/providers-zoom"> Zoom</Link>
-        <Link to="/providers-zoom"> Avaya</Link>
-        <Link to="/providers-zoom"> Bluejeans</Link>
-        <Link to="/providers-zoom"> Huawei</Link>
-        <Link to="/providers-zoom"> Lifesize</Link>
-        <Link to="/providers-zoom"> GoTo Meeting</Link>
-        <Link to="/providers-zoom"> Starleaf</Link>
+        <Link to="/"> Avaya</Link>
+        <Link to="/"> Bluejeans</Link>
+        <Link to="/"> Huawei</Link>
+        <Link to="/"> Lifesize</Link>
+        <Link to="/"> GoTo Meeting</Link>
+        <Link to="/"> Starleaf</Link>
       </PopupBox>
     }
     on={['focus', 'hover']}

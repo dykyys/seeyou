@@ -35,6 +35,11 @@ export const PopButton = styled.button`
   color: ${({ theme }) => theme.colors.dark};
   font-size: 14px;
   line-height: 1.5;
+  &:hover{
+    font-family: ${({ theme }) => theme.fonts.descr.bold};
+  }
+
+  
   ${({ theme }) => theme.device.desktop} {
     font-size: 18px;
   }
