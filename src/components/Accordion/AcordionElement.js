@@ -920,8 +920,7 @@ function Acord() {
                     </h2>
                     <AccordionPanel pb={4}>
                       <Answer>
-                        Both are planned listed on reputable exchanges in the
-                        fall of 2022
+                      The SEUs are to be listed on a reputable exchange, followed by the common shares if and when suitable
                       </Answer>
                     </AccordionPanel>
                   </>

@@ -64,7 +64,7 @@ const AboutHero = () => {
               Our shareholder community includes another five PhD's and four more psychologists, over ten successful entrepreneurs, a group of former and current CEOs, legal, IT, communication, and industry professionals, and the SEEYOU team. We are funded by long-term private capital only, all approaching this as a double bottom line social impact investment
               </ConferenceDiscription>
               <ConferenceDiscription>
-              SEEYOU will be partly user-owned. An equivalent of 10% of the original 2.5 million shares will be gifted to active* users and recruiters during the first 25 months after Open Release on August 1st, 2022
+              SEEYOU will be partly user-owned. An equivalent of 10% of the original 2.5 million shares will be gifted to active* users and recruiters during the first 25 months from September 2022.
               </ConferenceDiscription>
               <ConferenceDiscriptionSub>
               (*Final terms to be announced)
