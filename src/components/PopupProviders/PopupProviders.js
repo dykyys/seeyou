@@ -5,9 +5,9 @@ const PopupPro= () => (
   <Popup
     content={
       <PopupBox>
-        <Link to="/"> Google Meet</Link>
-        <Link to="/"> Microsoft Teams</Link>
-        <Link to="/"> Webex by Cisco</Link>
+        <Link to="/providers-google"> Google Meet</Link>
+        <Link to="/providers-microsoft"> Microsoft Teams</Link>
+        <Link to="/providers-webex"> Webex by Cisco</Link>
         <Link to="/providers-zoom"> Zoom</Link>
         <Link to="/"> Avaya</Link>
         <Link to="/"> Bluejeans</Link>
@@ -17,7 +17,7 @@ const PopupPro= () => (
         <Link to="/"> Starleaf</Link>
       </PopupBox>
     }
-    on={['focus', 'hover']}
+    on={['focus', 'hover', 'click']}
     position="bottom left"
     pinned
     hoverable

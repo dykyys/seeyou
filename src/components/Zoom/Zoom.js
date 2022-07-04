@@ -15,7 +15,8 @@ import {
         Number,
         NumberAc,
         Hero,
-        AccordLi 
+        AccordLi,
+        LLC
         } from './Zoom.styled';
 import {
     ChakraProvider,
@@ -59,6 +60,7 @@ import Last from '../../image/Zoom/last.svg';
             backgroundColor: '#F5F6FE'
             }}>
             <Container >
+                <Title>How to Create a Zoom Account</Title>
                 <ul>
                     <Item>
                         <GlobalImage>
@@ -72,7 +74,7 @@ import Last from '../../image/Zoom/last.svg';
                             If you do not yet have a Zoom account, this is how to create one
                             </Discription>
                             <ButDiv>
-                            <Link href={ZoomPDF} target="_blank">
+                            <Link href={'https://zoom.us/'} target="_blank">
                             Create Zoom Account
                             </Link>
                             </ButDiv>
@@ -98,6 +100,7 @@ import Last from '../../image/Zoom/last.svg';
             </Hero>
              <Section>
                 <Container>
+                    <Title>Zoom + SEEYOU Getting Started Guide</Title>
                     <ul>
                         <Item>
                             <GlobalImage>
@@ -325,6 +328,7 @@ import Last from '../../image/Zoom/last.svg';
                             </GlobalBox>
                             
                         </Item>
+                        <LLC>SEEYOU LLC, The CHQ Building, Custom House Quay, Dublin 1, D01 Y6H7 Ireland</LLC>
                     </ul>
                 </Container>
             </Section>

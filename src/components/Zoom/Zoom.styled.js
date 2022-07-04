@@ -26,7 +26,7 @@ export const Section = styled.section`
 padding: 100px 0px 120px;
 
   ${({ theme }) => theme.device.tablet} {
-    padding: 180px 0px 160px;
+    padding: 120px 0px 160px;
     background-repeat: no-repeat;
     background-position: top left, center right, top 45% left, top 70% right, top 90% right, top 23% right, bottom left 20%  ;
     background-size: small;
@@ -42,11 +42,11 @@ padding: 100px 0px 120px;
 
 
 export const Title = styled.h1`
+text-align: center;
+margin: 0 auto;
 font-family: ${({ theme }) => theme.fonts.title.bold};
 font-size: 25px;
 line-height: 1.2;
-margin-bottom: 32px;
-margin-top: 32px;
 color: ${({ theme }) => theme.colors.black_btn};
 ${({ theme }) => theme.device.tablet} {
   font-size: 26px;
@@ -54,12 +54,10 @@ ${({ theme }) => theme.device.tablet} {
 ${({ theme }) => theme.device.default} {
   font-size: 30px;
   margin-bottom: 32px;
-  margin-top: 100px;
 }
 ${({ theme }) => theme.device.desktop} {
   font-size: 45px;
   margin-bottom: 32px;
-  margin-top: 120px;
 }
 `;
 
@@ -70,11 +68,12 @@ line-height: 1.35;
 color: ${({ theme }) => theme.colors.primaryText};
 margin-bottom: 50px;
 ${({ theme }) => theme.device.tablet} {
-  margin-bottom: 0px;
+  margin-bottom: 32px;
+  margin-top: 10px;
 }
 ${({ theme }) => theme.device.default} {
   
-  margin-bottom: 40px;
+
 }
 ${({ theme }) => theme.device.desktop} {
   
@@ -155,23 +154,22 @@ export const GlobalBoxFlex = styled.div`
     margin: 0 auto;
     width: 310px;
     text-align: left;
+    align-items: start;
     padding-right: 10px;
     padding-left: 10px;
   }
   ${({ theme }) => theme.device.default} {
     width: 416px;
-    
     padding-right: 20px;
   }
   ${({ theme }) => theme.device.desktop} {
     width: 539px;
-    text-align: left;
     padding-right: 30px;
   } ;
 `;
 export const GlobalBoxFlexAccord = styled.div`
   display: flex;
-
+  
   text-align: left;
   width: auto;
   
@@ -182,7 +180,7 @@ export const GlobalBoxFlexAccord = styled.div`
     margin: 0 auto;
     width: 285px;
     text-align: left;
-    align-items: center;
+    align-items: start;
     padding-right: 10px;
     padding-left: 10px;
   }
@@ -193,7 +191,6 @@ export const GlobalBoxFlexAccord = styled.div`
   }
   ${({ theme }) => theme.device.desktop} {
     width: 465px;
-    text-align: left;
     padding-right: 30px;
   } ;
 `;
@@ -230,7 +227,7 @@ export const YouTube = styled.iframe`
     margin: 0 auto;
     width: 327px;
     height: 183px;
-  
+    filter: drop-shadow(0px 20px 30px rgba(0, 0, 0, 0.4));
   ${({ theme }) => theme.device.tablet} {
     width: 309px;
     height: 172px;
@@ -280,12 +277,18 @@ text-decoration-line: underline;
 color: blue;
 `
 export const Number = styled.span`
+font-family: ${({ theme }) => theme.fonts.descr.regular};
+font-size: 20px;
+line-height: 0.8;
+padding-top: 30%;
 padding: 10px 16px;
 background: #F1F1F5;
 border-radius: 50%;
+align-items: center;
 text-align: center;
 margin-right: 12px;
 height: 40px;
+
 ${({ theme }) => theme.device.tablet} {
   margin-right: 22px;
 }
@@ -331,3 +334,12 @@ ${({ theme }) => theme.device.desktop} {
   
 }
 `
+export const LLC = styled.h3`
+  text-align: center;
+  margin: 0 auto;
+  font-family: ${({ theme }) => theme.fonts.descr.regular};
+  font-size: 12px;
+  line-height: 1.22;
+  margin-bottom: 40px;
+  color: ${({ theme }) => theme.colors.black_btn};
+`;

@@ -13,6 +13,8 @@ import Report from '../../pages/Report';
 import Suggest from '../../pages/Suggest';
 import Zoom from '../../pages/Zoom';
 import Webex from '../../pages/Webex';
+import Google from '../../pages/Google/Google'
+import Microsoft from '../../pages/MicrosoftTeams/Microsoft'
 import Request from '../../pages/Request';
 import Delete from '../../pages/DeleteAccount';
 import End from '../../pages/EndEncryption';
@@ -34,7 +36,9 @@ function App() {
         <Route path="problem" element={<Report />} />
         <Route path="feature" element={<Suggest />} />
         <Route path="providers-zoom" element={<Zoom />} />
-        <Route path="providers" element={<Webex />} />
+        <Route path="providers-webex" element={<Webex />} />
+        <Route path="providers-google" element={<Google />} />
+        <Route path="providers-microsoft" element={<Microsoft />} />
         <Route path="request-access" element={<Request />} />
         <Route path="delete-account" element={<Delete />} />
         <Route path="end-to-end-encryption" element={<End />} />

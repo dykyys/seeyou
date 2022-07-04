@@ -39,22 +39,22 @@ import { MinusIcon, AddIcon } from '@chakra-ui/icons';
 import Container from '../Container/Container.styled';
 import ZoomPDF from '../../PDF/Zoom_SEEYOU_v2_2.pdf';
 import { Image } from '@chakra-ui/react';
-import HeroWebex from '../../image/Webex/webex_hero.svg';
+import HeroGoogle from '../../image/Google/google_hero.svg';
 import Registr from '../../image/Webex/registr.svg';
 import Sync from '../../image/Zoom/sync.svg';
 import Create from '../../image/Zoom/create.svg';
-import Calender from '../../image/Webex/calendar.svg';
-import Booking from '../../image/Webex/booking.svg';
-import Dev from '../../image/Webex/dev.svg';
-import Toolbar from '../../image/Webex/10.png';
-import Accord1 from '../../image/Webex/accord1.svg';
-import Accord2 from '../../image/Webex/accord2.svg';
+import Calender from '../../image/Google/calendar.svg';
+import Booking from '../../image/Google/booking.svg';
+import Dev from '../../image/Google/dev.svg';
+import Toolbar from '../../image/Google/toolbar.png';
+import Accord1 from '../../image/Google/accord1.svg';
+import Accord2 from '../../image/Google/accord2.svg';
 import Last from '../../image/Zoom/last.svg';
 
 
  
 
-const WebexHero = () =>{
+const GoogleHero = () =>{
     return(
         <>
         <main>
@@ -62,36 +62,36 @@ const WebexHero = () =>{
            backgroundColor: '#F5F6FE'
            }}>
            <Container >
-                <Title>How to Create a Webex Account</Title>
+                <Title>How to Create a Google Meet Account</Title>
                <ul>
                    <Item>
                        <GlobalImage>
-                           <Image margin='0 auto' src={HeroWebex} alt="Zoom" />
+                           <Image margin='0 auto' src={HeroGoogle} alt="Zoom" />
                        </GlobalImage>
                        <GlobalBox>
                            <Discription>
-                           SEEYOU makes using Webex easier and gives you many new features. If you have a Webex account, you simply connect to SEEYOU
+                           SEEYOU makes using Google Meet easier and gives you many new features. If you have a Google account, you simply connect to SEEYOU
                            </Discription>
                            <Discription>
-                           If you do not yet have a Webex account, this is how to create one
+                           If you do not yet have a Google account, this is how to create one
                            </Discription>
                            <ButDiv>
-                           <Link href={'https://help.webex.com/en-us/article/now995h/Get-started-with-your-free-Webex-plan'} target="_blank">
-                           Create Webex Account
+                           <Link href={'https://accounts.google.com/signup/v2/webcreateaccount?flowName=GlifWebSignIn&flowEntry=SignUp'} target="_blank">
+                           Create Google Account
                            </Link>
                            </ButDiv>
                        </GlobalBox>
                    </Item>
                    <Item>
                        <GlobalImage>
-                       <YouTube  src="https://www.youtube.com/embed/h4lyge97XIU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></YouTube>
+                       <YouTube width="560" height="315" src="https://www.youtube.com/embed/wkP_8vwhPtM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></YouTube>
                        </GlobalImage>
                        <GlobalBox>
                            <Discription>
-                            YouTube has many good tutorials on how to create a Webex account
+                           YouTube has many good tutorials on how to create a Google Meet account
                            </Discription>
                            <ButDiv>
-                           <Link href={'https://www.youtube.com/watch?v=k0RBFGkT_3A&ab_channel=Webex'} target="_blank">
+                           <Link href={'https://www.youtube.com/c/google'} target="_blank">
                             Open YouTube
                            </Link>
                            </ButDiv>
@@ -102,7 +102,7 @@ const WebexHero = () =>{
            </Hero>
             <Section>
                <Container>
-                    <Title>Webex + SEEYOU Getting Started Guide</Title>
+                    <Title>Meet + SEEYOU Getting Started Guide</Title>
                    <ul>
                        <Item>
                            <GlobalImage>
@@ -156,7 +156,7 @@ const WebexHero = () =>{
                            <GlobalBoxFlex>
                                <Number>5</Number>
                                <Discription>
-                               Click on the + icon in the top right to create a Webex event. When connecting for the first
+                               Click on the + icon in the top right to create a Google Meet event. When connecting for the first
 time, you need to connect to your Google or Microsoft Outlook calendar
                                </Discription>
                            </GlobalBoxFlex>
@@ -168,7 +168,8 @@ time, you need to connect to your Google or Microsoft Outlook calendar
                            <GlobalBoxFlex>
                                <Number>6</Number>
                                <Discription>
-                               Once connected, you can now see all your meetings from your respective calendars in one joint calendar, Zoom meetings included
+                               Once connected, you can now see all your meetings from your respective calendars in one
+joint calendar, Google Meet meetings included
                                </Discription>
                            </GlobalBoxFlex>
                        </Item>
@@ -182,8 +183,8 @@ time, you need to connect to your Google or Microsoft Outlook calendar
                                }}>
                                <Number>7</Number>
                                <Discription>
-                               SEEYOU simplifies booking Webex meetings. After connecting your Webex account, click the
-                                Webex icon to create a Webex event
+                               SEEYOU simplifies booking Google Meet meetings. After connecting your Google Meet account, click the
+Google Meet icon to create a Google Meet event
                                </Discription>
                                </div>
                                <div style={{
@@ -191,7 +192,7 @@ time, you need to connect to your Google or Microsoft Outlook calendar
                                }}>
                                <Number>8</Number>
                                <Discription>
-                               Creating a Webex event can quickly be done within the SEEYOU app
+                               Creating a Google Meet event can quickly be done within the SEEYOU app
                                </Discription>
                                </div>
                            </GlobalBox>
@@ -203,8 +204,8 @@ time, you need to connect to your Google or Microsoft Outlook calendar
                            <GlobalBoxFlex>
                                <Number>9</Number>
                                <Discription>
-                               All Webex conferences appear in the SEEYOU calendar, and your most immediate ones also
-                                appear on the SEEYOU homepage. Joining is as simple as just clicking Join button
+                               All Google conferences appear in the SEEYOU calendar, and your most immediate ones also
+appear on the SEEYOU homepage. Joining is as simple as just clicking Join button
                                </Discription>
                            </GlobalBoxFlex>
                        </Item>
@@ -215,9 +216,9 @@ time, you need to connect to your Google or Microsoft Outlook calendar
                            <GlobalBoxFlex>
                                <Number>10</Number>
                                <Discription>
-                               The SEEYOU toolbar makes it easier for non-Webex users to instantly familiarize themselves
-with the Webex platform when inside the Webex conference. For experienced Webex users, it
-introduces  additional functionalities to the already outstanding Webex platform
+                               The SEEYOU toolbar makes it easier for non-Google Meet users to instantly familiarize themselves
+with the Google Meet platform when inside the Google Meet conference. For experienced Google Meet users, it
+introduces  additional functionalities to the already outstanding Google Meet platform
                               
                                </Discription>
                            </GlobalBoxFlex>
@@ -245,7 +246,7 @@ introduces  additional functionalities to the already outstanding Webex platform
                                        paddingRight="40px"
                                    >
                                        <Box flex="1" textAlign="left">
-                                       <Questions>How to disconnect Webex from SEEYOU</Questions>
+                                       <Questions>How to disconnect Google Meet from SEEYOU</Questions>
                                        </Box>
                                        {isExpanded ? (
                                        <MinusIcon fontSize="12px" />
@@ -255,7 +256,7 @@ introduces  additional functionalities to the already outstanding Webex platform
                                    </AccordionButton>
                                    </h2>
                                    <AccordionPanel pb={4}>
-                                   <Answer>To disconnect Webex from your SEEYOU account, follow the steps below.</Answer>
+                                   <Answer>To disconnect Google Meet from your SEEYOU account, follow the steps below.</Answer>
                                    <Item>
                                        <ul style={{
                                            margin: '0 auto'
@@ -267,7 +268,7 @@ introduces  additional functionalities to the already outstanding Webex platform
                                        <GlobalBoxFlexAccord>
                                            <NumberAc>1</NumberAc>
                                            <Discription>
-                                            From your SEEYOU account, under your profile info, click on Settings, then navigate to the
+                                           From your SEEYOU account, under your profile info, click on Settings, then navigate to the
                                             Providers and Emails tab.
                                            </Discription>
                                        </GlobalBoxFlexAccord>
@@ -280,7 +281,7 @@ introduces  additional functionalities to the already outstanding Webex platform
                                            <NumberAc>2</NumberAc>
                                            <Discription>
                                            Then simply click on the Disconnect icon on the right. Once
-                                            disconnected, you are no longer able to create Webex meetings within SEEYOU.
+                                            disconnected, you are no longer able to create Google Meet meetings within SEEYOU.
                                            </Discription>
                                        </GlobalBoxFlexAccord>
                                            </AccordLi>
@@ -303,4 +304,4 @@ introduces  additional functionalities to the already outstanding Webex platform
         </>
     );
 };
-export default WebexHero;
+export default GoogleHero;

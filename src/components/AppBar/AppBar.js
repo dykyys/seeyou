@@ -15,8 +15,8 @@ import {
 } from './AppBar.styled';
 // import { Container } from '../Container/Container.styled';
 import Burger from '../Burger';
-import LogoSeeYouMobile from '../../image/SeeYou_mobile.svg';
-import LogoSeeYou from '../../image/seeyou_15_04.svg';
+import LogoSeeYouMobile from '../../image/SeeYouLogoBeta.svg';
+import LogoSeeYou from '../../image/SeeYouLogoBeta.svg';
 import { useOnClickOutside } from '../../hooks/OnClickOutside';
 import MediaQuery from '../MediaQuery';
 // import DownloadLink from '../DownloadLink';

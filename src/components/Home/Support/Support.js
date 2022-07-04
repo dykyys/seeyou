@@ -6,13 +6,15 @@ import {
   BoxIMG,
   SupportLi,
   SupportUl,
+  Image
 } from './Support.styled';
 import MediaQuery from 'components/MediaQuery';
-import { Image } from '@chakra-ui/react';
+import {  } from '@chakra-ui/react';
 import AppleStore from 'image/support/App_store_footer.svg';
 import GooglePlay from 'image/support/Google_play_footer.svg';
 import MacOS from 'image/support/MacOS_footer.svg';
 import Windows from 'image/support/Windows_footer.svg';
+import Webex from 'image/support/Webex.svg';
 
 const Support = () => {
   return (
@@ -37,9 +39,6 @@ const Support = () => {
         </BoxIMG>
         </MediaQuery>
         <MediaQuery device={'tablet'}>
-        <Box>
-          <Title>Please download SEEYOU here</Title>
-        </Box>
         <BoxIMG>
           <SupportUl>
             <SupportLi>
@@ -63,6 +62,12 @@ const Support = () => {
             <SupportLi>
               <a href='mailto:hello@seeyou.eu?subject=Please add me to the SEEYOU pre-launch version 1.0.1 priority list" target="_self"'>
                 <Image src={AppleStore} htmlWidth="150px" alt="AppleStore" />
+              </a>
+              {/* <Play src={PlayImg} /> */}
+            </SupportLi>
+            <SupportLi>
+              <a href='mailto:hello@seeyou.eu?subject=Please add me to the SEEYOU pre-launch version 1.0.1 priority list" target="_self"'>
+                <Image src={Webex} htmlWidth="150px" alt="Webex" />
               </a>
               {/* <Play src={PlayImg} /> */}
             </SupportLi>
@@ -70,9 +75,6 @@ const Support = () => {
         </BoxIMG>
         </MediaQuery>
         <MediaQuery device={'default'}>
-        <Box>
-          <Title>Please download SEEYOU here</Title>
-        </Box>
         <BoxIMG>
           <SupportUl>
             <SupportLi>
@@ -96,6 +98,12 @@ const Support = () => {
             <SupportLi>
               <a href='mailto:hello@seeyou.eu?subject=Please add me to the SEEYOU pre-launch version 1.0.1 priority list" target="_self"'>
                 <Image src={AppleStore} htmlWidth="150px" alt="AppleStore" />
+              </a>
+              {/* <Play src={PlayImg} /> */}
+            </SupportLi>
+            <SupportLi>
+              <a href='mailto:hello@seeyou.eu?subject=Please add me to the SEEYOU pre-launch version 1.0.1 priority list" target="_self"'>
+                <Image src={Webex} htmlWidth="150px" alt="Webex" />
               </a>
               {/* <Play src={PlayImg} /> */}
             </SupportLi>

@@ -37,24 +37,23 @@ import {
 import React from 'react';
 import { MinusIcon, AddIcon } from '@chakra-ui/icons';
 import Container from '../Container/Container.styled';
-import ZoomPDF from '../../PDF/Zoom_SEEYOU_v2_2.pdf';
 import { Image } from '@chakra-ui/react';
-import HeroWebex from '../../image/Webex/webex_hero.svg';
-import Registr from '../../image/Webex/registr.svg';
+import HeroMicro from '../../image/MicrosoftTeams/MicrosoftHero.svg';
+import Registr from '../../image/MicrosoftTeams/registr.svg';
 import Sync from '../../image/Zoom/sync.svg';
 import Create from '../../image/Zoom/create.svg';
-import Calender from '../../image/Webex/calendar.svg';
-import Booking from '../../image/Webex/booking.svg';
-import Dev from '../../image/Webex/dev.svg';
-import Toolbar from '../../image/Webex/10.png';
-import Accord1 from '../../image/Webex/accord1.svg';
-import Accord2 from '../../image/Webex/accord2.svg';
+import Calender from '../../image/MicrosoftTeams/calendar.svg';
+import Booking from '../../image/MicrosoftTeams/booking.svg';
+import Dev from '../../image/MicrosoftTeams/dev.svg';
+import Toolbar from '../../image/MicrosoftTeams/toolbar.png';
+import Accord1 from '../../image/MicrosoftTeams/accord1.svg';
+import Accord2 from '../../image/MicrosoftTeams/accord2.svg';
 import Last from '../../image/Zoom/last.svg';
 
 
  
 
-const WebexHero = () =>{
+const MicroHero = () =>{
     return(
         <>
         <main>
@@ -62,36 +61,36 @@ const WebexHero = () =>{
            backgroundColor: '#F5F6FE'
            }}>
            <Container >
-                <Title>How to Create a Webex Account</Title>
+                <Title>How to Create a Microsoft Teams/Skype Account</Title>
                <ul>
                    <Item>
                        <GlobalImage>
-                           <Image margin='0 auto' src={HeroWebex} alt="Zoom" />
+                           <Image margin='0 auto' src={HeroMicro} alt="Zoom" />
                        </GlobalImage>
                        <GlobalBox>
                            <Discription>
-                           SEEYOU makes using Webex easier and gives you many new features. If you have a Webex account, you simply connect to SEEYOU
+                           SEEYOU makes using Microsoft easier and gives you many new features. If you have a Microsoft account, you simply connect to SEEYOU
                            </Discription>
                            <Discription>
-                           If you do not yet have a Webex account, this is how to create one
+                           If you do not yet have a Microsoft  account, this is how to create one
                            </Discription>
                            <ButDiv>
-                           <Link href={'https://help.webex.com/en-us/article/now995h/Get-started-with-your-free-Webex-plan'} target="_blank">
-                           Create Webex Account
+                           <Link href={'https://support.microsoft.com/en-us/account-billing/how-to-create-a-new-microsoft-account-a84675c3-3e9e-17cf-2911-3d56b15c0aaf'} target="_blank">
+                           Create Microsoft Account
                            </Link>
                            </ButDiv>
                        </GlobalBox>
                    </Item>
                    <Item>
                        <GlobalImage>
-                       <YouTube  src="https://www.youtube.com/embed/h4lyge97XIU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></YouTube>
+                       <YouTube width="560" height="315" src="https://www.microsoft.com/en-us/videoplayer/embed/RE4FyMj?pid=ocpVideo0-innerdiv-oneplayer&maskLevel=20&market=en-us" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></YouTube>
                        </GlobalImage>
                        <GlobalBox>
                            <Discription>
-                            YouTube has many good tutorials on how to create a Webex account
+                           YouTube has many good tutorials on how to create a Microsoft account
                            </Discription>
                            <ButDiv>
-                           <Link href={'https://www.youtube.com/watch?v=k0RBFGkT_3A&ab_channel=Webex'} target="_blank">
+                           <Link href={'https://www.youtube.com/c/microsoft/videos'} target="_blank">
                             Open YouTube
                            </Link>
                            </ButDiv>
@@ -102,7 +101,7 @@ const WebexHero = () =>{
            </Hero>
             <Section>
                <Container>
-                    <Title>Webex + SEEYOU Getting Started Guide</Title>
+                    <Title>Teams/Skype + SEEYOU Getting Started Guide</Title>
                    <ul>
                        <Item>
                            <GlobalImage>
@@ -156,7 +155,7 @@ const WebexHero = () =>{
                            <GlobalBoxFlex>
                                <Number>5</Number>
                                <Discription>
-                               Click on the + icon in the top right to create a Webex event. When connecting for the first
+                               Click on the + icon in the top right to create a Microsoft event. When connecting for the first
 time, you need to connect to your Google or Microsoft Outlook calendar
                                </Discription>
                            </GlobalBoxFlex>
@@ -168,7 +167,8 @@ time, you need to connect to your Google or Microsoft Outlook calendar
                            <GlobalBoxFlex>
                                <Number>6</Number>
                                <Discription>
-                               Once connected, you can now see all your meetings from your respective calendars in one joint calendar, Zoom meetings included
+                               Once connected, you can now see all your meetings from your respective calendars in one
+joint calendar, Microsoft Teams ad Skype meetings included
                                </Discription>
                            </GlobalBoxFlex>
                        </Item>
@@ -182,8 +182,8 @@ time, you need to connect to your Google or Microsoft Outlook calendar
                                }}>
                                <Number>7</Number>
                                <Discription>
-                               SEEYOU simplifies booking Webex meetings. After connecting your Webex account, click the
-                                Webex icon to create a Webex event
+                               SEEYOU simplifies booking Microsoft meetings. After connecting your Microsoft account, click the
+Microsoft icon to create an event
                                </Discription>
                                </div>
                                <div style={{
@@ -191,7 +191,7 @@ time, you need to connect to your Google or Microsoft Outlook calendar
                                }}>
                                <Number>8</Number>
                                <Discription>
-                               Creating a Webex event can quickly be done within the SEEYOU app
+                               Creating a Microsoft Teams/Skype event can quickly be done within the SEEYOU app
                                </Discription>
                                </div>
                            </GlobalBox>
@@ -203,8 +203,8 @@ time, you need to connect to your Google or Microsoft Outlook calendar
                            <GlobalBoxFlex>
                                <Number>9</Number>
                                <Discription>
-                               All Webex conferences appear in the SEEYOU calendar, and your most immediate ones also
-                                appear on the SEEYOU homepage. Joining is as simple as just clicking Join button
+                               All Microsoft conferences appear in the SEEYOU calendar, and your most immediate ones also
+appear on the SEEYOU homepage. Joining is as simple as just clicking Join button
                                </Discription>
                            </GlobalBoxFlex>
                        </Item>
@@ -215,9 +215,9 @@ time, you need to connect to your Google or Microsoft Outlook calendar
                            <GlobalBoxFlex>
                                <Number>10</Number>
                                <Discription>
-                               The SEEYOU toolbar makes it easier for non-Webex users to instantly familiarize themselves
-with the Webex platform when inside the Webex conference. For experienced Webex users, it
-introduces  additional functionalities to the already outstanding Webex platform
+                               The SEEYOU toolbar makes it easier for non-Microsoft users to instantly familiarize themselves
+with the Teams/Skype platforms when inside the conference. For experienced Teams/Skype users, it
+introduces additional functionalities to the already outstanding Microsoft platform
                               
                                </Discription>
                            </GlobalBoxFlex>
@@ -245,7 +245,7 @@ introduces  additional functionalities to the already outstanding Webex platform
                                        paddingRight="40px"
                                    >
                                        <Box flex="1" textAlign="left">
-                                       <Questions>How to disconnect Webex from SEEYOU</Questions>
+                                       <Questions>How to disconnect Microsoft from SEEYOU</Questions>
                                        </Box>
                                        {isExpanded ? (
                                        <MinusIcon fontSize="12px" />
@@ -255,7 +255,7 @@ introduces  additional functionalities to the already outstanding Webex platform
                                    </AccordionButton>
                                    </h2>
                                    <AccordionPanel pb={4}>
-                                   <Answer>To disconnect Webex from your SEEYOU account, follow the steps below.</Answer>
+                                   <Answer>To disconnect Microsoft meetings from your SEEYOU account, follow the steps below.</Answer>
                                    <Item>
                                        <ul style={{
                                            margin: '0 auto'
@@ -267,8 +267,8 @@ introduces  additional functionalities to the already outstanding Webex platform
                                        <GlobalBoxFlexAccord>
                                            <NumberAc>1</NumberAc>
                                            <Discription>
-                                            From your SEEYOU account, under your profile info, click on Settings, then navigate to the
-                                            Providers and Emails tab.
+                                           From your SEEYOU account, under your profile info, click on Settings, then navigate to the
+ Providers and Emails tab.
                                            </Discription>
                                        </GlobalBoxFlexAccord>
                                            </AccordLi>
@@ -280,7 +280,7 @@ introduces  additional functionalities to the already outstanding Webex platform
                                            <NumberAc>2</NumberAc>
                                            <Discription>
                                            Then simply click on the Disconnect icon on the right. Once
-                                            disconnected, you are no longer able to create Webex meetings within SEEYOU.
+disconnected, you are no longer able to create Microsoft meetings within SEEYOU.
                                            </Discription>
                                        </GlobalBoxFlexAccord>
                                            </AccordLi>
@@ -303,4 +303,4 @@ introduces  additional functionalities to the already outstanding Webex platform
         </>
     );
 };
-export default WebexHero;
+export default MicroHero;
