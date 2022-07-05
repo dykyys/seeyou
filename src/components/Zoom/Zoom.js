@@ -13,10 +13,11 @@ import {
         YouTube,
         DownText,
         Number,
-        NumberAc,
         Hero,
         AccordLi,
-        LLC
+        LLC,
+        NumberDiv,
+        DiscriptionAc
         } from './Zoom.styled';
 import {
     ChakraProvider,
@@ -110,7 +111,9 @@ import Last from '../../image/Zoom/last.svg';
                                 <div style={{
                                 display: 'flex'
                                 }}>
+                                    <NumberDiv>
                                 <Number>1</Number>
+                                </NumberDiv>
                                 <Discription>
                                 First install SEEYOU via <DownText href='/downloads'>downloads</DownText>
                                 </Discription>
@@ -118,7 +121,9 @@ import Last from '../../image/Zoom/last.svg';
                                 <div style={{
                                 display: 'flex'
                                 }}>
+                                <NumberDiv>
                                 <Number>2</Number>
+                                </NumberDiv>
                                 <Discription>
                                 Then create your SEEYOU account
                                 </Discription>
@@ -133,14 +138,18 @@ import Last from '../../image/Zoom/last.svg';
                             <div style={{
                                 display: 'flex'
                                 }}>
+                                <NumberDiv>
                                 <Number>3</Number>
+                                </NumberDiv>
                                 <Discription>
                                 Navigate to the Calendar tab
                                 </Discription>
                                 </div><div style={{
                                 display: 'flex'
                                 }}>
+                                <NumberDiv>
                                 <Number>4</Number>
+                                </NumberDiv>
                                 <Discription>
                                 Follow the guide by clicking Next
                                 </Discription>
@@ -152,7 +161,9 @@ import Last from '../../image/Zoom/last.svg';
                                 <Image margin='0 auto' src={Create} alt="Zoom" />
                             </GlobalImage>
                             <GlobalBoxFlex>
+                            <NumberDiv>
                                 <Number>5</Number>
+                                </NumberDiv>
                                 <Discription>
                                 Click on the + icon in the top right to create a Zoom event. When connecting for the first
                                 time, you need to connect to your Google or Microsoft Outlook calendar
@@ -164,7 +175,9 @@ import Last from '../../image/Zoom/last.svg';
                                 <Image margin='0 auto' src={Calender} alt="Zoom" />
                             </GlobalImage>
                             <GlobalBoxFlex>
+                            <NumberDiv>
                                 <Number>6</Number>
+                                </NumberDiv>
                                 <Discription>
                                 Once connected, you can now see all your meetings from your respective calendars in one
                                 joint calendar, Zoom meetings included
@@ -179,7 +192,9 @@ import Last from '../../image/Zoom/last.svg';
                                 <div style={{
                                 display: 'flex'
                                 }}>
+                                <NumberDiv>
                                 <Number>7</Number>
+                                </NumberDiv>
                                 <Discription>
                                 SEEYOU simplifies booking Zoom meetings. After connecting your Zoom account, click the
                                 Zoom icon to create a Zoom event
@@ -188,7 +203,9 @@ import Last from '../../image/Zoom/last.svg';
                                 <div style={{
                                 display: 'flex'
                                 }}>
+                                <NumberDiv>
                                 <Number>8</Number>
+                                </NumberDiv>
                                 <Discription>
                                 Creating a Zoom event can quickly be done within the SEEYOU app
                                 </Discription>
@@ -200,7 +217,9 @@ import Last from '../../image/Zoom/last.svg';
                                 <Image margin='0 auto' src={Dev} alt="Zoom" />
                             </GlobalImage>
                             <GlobalBoxFlex>
+                            <NumberDiv>
                                 <Number>9</Number>
+                                </NumberDiv>
                                 <Discription>
                                  All Zoom conferences appear in the SEEYOU calendar, and your most immediate ones also
                                 appear on the SEEYOU homepage. Joining is as simple as just clicking Join
@@ -212,7 +231,9 @@ import Last from '../../image/Zoom/last.svg';
                                 <Image margin='0 auto' src={Toolbar} alt="Zoom" />
                             </GlobalImage>
                             <GlobalBoxFlex>
+                            <NumberDiv>
                                 <Number>10</Number>
+                                </NumberDiv>
                                 <Discription>
                                 The SEEYOU toolbar makes it easier for non-Zoom users to instantly familiarize themselves
                                 with the Zoom platform when inside the Zoom conference. For experienced Zoom users, it
@@ -263,11 +284,15 @@ import Last from '../../image/Zoom/last.svg';
                                             <Image margin='0 auto' src={Accord1} alt="Zoom" />
                                         </GlobalImageAccord>
                                         <GlobalBoxFlexAccord>
-                                            <NumberAc>1</NumberAc>
-                                            <Discription>
+                                            <NumberDiv style={{
+                               backgroundColor: 'white'
+                               }}>
+                                                <Number>1</Number>
+                                            </NumberDiv>
+                                            <DiscriptionAc>
                                             From your SEEYOU account, under your profile info, click on Settings, then navigate to the
                                             Providers and Emails tab.
-                                            </Discription>
+                                            </DiscriptionAc>
                                         </GlobalBoxFlexAccord>
                                             </AccordLi>
                                             <AccordLi>
@@ -275,11 +300,15 @@ import Last from '../../image/Zoom/last.svg';
                                             <Image margin='0 auto' src={Accord2} alt="Zoom" />
                                         </GlobalImageAccord>
                                         <GlobalBoxFlexAccord>
-                                            <NumberAc>2</NumberAc>
-                                            <Discription>
+                                            <NumberDiv style={{
+                               backgroundColor: 'white'
+                               }}>
+                                            <Number>2</Number>
+                                            </NumberDiv>
+                                            <DiscriptionAc>
                                             Then simply click on the Disconnect icon on the right. Once
                                             disconnected, you are no longer able to create Zoom meetings within SEEYOU.
-                                            </Discription>
+                                            </DiscriptionAc>
                                         </GlobalBoxFlexAccord>
                                             </AccordLi>
                                         </ul>
@@ -301,7 +330,9 @@ import Last from '../../image/Zoom/last.svg';
                                 <div style={{
                                 display: 'flex'
                                 }}>
+                                <NumberDiv>
                                 <Number>1</Number>
+                                </NumberDiv>
                                 <Discription>
                                 Log in to your Zoom account and navigate to the Zoom App Marketplace.
                                 </Discription>
@@ -309,15 +340,19 @@ import Last from '../../image/Zoom/last.svg';
                                 <div style={{
                                 display: 'flex'
                                 }}>
+                                <NumberDiv>
                                 <Number>2</Number>
+                                </NumberDiv>
                                 <Discription>
-                                Click Manage > Added Apps or search for the SEEYOU app
+                                Click Manage - Added Apps or search for the SEEYOU app
                                 </Discription>
                                 </div>
                                 <div style={{
                                 display: 'flex'
                                 }}>
+                                <NumberDiv>
                                 <Number>3</Number>
+                                </NumberDiv>
                                 <Discription>
                                 Click the 'Remove' button.
                                 </Discription>

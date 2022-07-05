@@ -14,10 +14,11 @@ import {
         YouTube,
         DownText,
         Number,
-        NumberAc,
+        NumberDiv,
         Hero,
         AccordLi,
-        LLC
+        LLC,
+        DiscriptionAc
         } from '../Zoom/Zoom.styled';
 import {
     ChakraProvider,
@@ -40,7 +41,7 @@ import Container from '../Container/Container.styled';
 import ZoomPDF from '../../PDF/Zoom_SEEYOU_v2_2.pdf';
 import { Image } from '@chakra-ui/react';
 import HeroGoogle from '../../image/Google/google_hero.svg';
-import Registr from '../../image/Webex/registr.svg';
+import Registr from '../../image/Zoom/registr.svg';
 import Sync from '../../image/Zoom/sync.svg';
 import Create from '../../image/Zoom/create.svg';
 import Calender from '../../image/Google/calendar.svg';
@@ -266,7 +267,11 @@ introduces  additional functionalities to the already outstanding Google Meet pl
                                            <Image margin='0 auto' src={Accord1} alt="Zoom" />
                                        </GlobalImageAccord>
                                        <GlobalBoxFlexAccord>
-                                           <NumberAc>1</NumberAc>
+                                       <NumberDiv style={{
+                                            backgroundColor: 'white'
+                                            }}>
+                                            <Number>1</Number>
+                                            </NumberDiv>
                                            <Discription>
                                            From your SEEYOU account, under your profile info, click on Settings, then navigate to the
                                             Providers and Emails tab.
@@ -278,7 +283,11 @@ introduces  additional functionalities to the already outstanding Google Meet pl
                                            <Image margin='0 auto' src={Accord2} alt="Zoom" />
                                        </GlobalImageAccord>
                                        <GlobalBoxFlexAccord>
-                                           <NumberAc>2</NumberAc>
+                                       <NumberDiv style={{
+                                        backgroundColor: 'white'
+                                        }}>
+                                            <Number>2</Number>
+                                            </NumberDiv>
                                            <Discription>
                                            Then simply click on the Disconnect icon on the right. Once
                                             disconnected, you are no longer able to create Google Meet meetings within SEEYOU.

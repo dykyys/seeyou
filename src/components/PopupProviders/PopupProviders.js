@@ -9,11 +9,8 @@ const PopupPro= () => (
         <Link to="/providers-microsoft"> Microsoft Teams</Link>
         <Link to="/providers-webex"> Webex by Cisco</Link>
         <Link to="/providers-zoom"> Zoom</Link>
-        <Link to="/"> Avaya</Link>
-        <Link to="/"> Bluejeans</Link>
+        <Link to="/providers-bluejeans"> Bluejeans</Link>
         <Link to="/"> Huawei</Link>
-        <Link to="/"> Lifesize</Link>
-        <Link to="/"> GoTo Meeting</Link>
         <Link to="/"> Starleaf</Link>
       </PopupBox>
     }

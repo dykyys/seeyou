@@ -63,21 +63,44 @@ ${({ theme }) => theme.device.desktop} {
 
 export const Discription = styled.p`
 font-family: ${({ theme }) => theme.fonts.descr.regular};
-font-size: 16px;
+font-size: 14px;
 line-height: 1.35;
 color: ${({ theme }) => theme.colors.primaryText};
 margin-bottom: 50px;
 ${({ theme }) => theme.device.tablet} {
   margin-bottom: 32px;
   margin-top: 10px;
+  max-width: 250px;
+  font-size: 16px;
 }
 ${({ theme }) => theme.device.default} {
-  
+  max-width: 270px;
 
 }
 ${({ theme }) => theme.device.desktop} {
-  
-  
+  max-width: 400px;
+  font-size: 20px;
+}
+`;
+export const DiscriptionAc = styled.p`
+font-family: ${({ theme }) => theme.fonts.descr.regular};
+font-size: 14px;
+line-height: 1.35;
+color: ${({ theme }) => theme.colors.primaryText};
+margin-bottom: 50px;
+${({ theme }) => theme.device.tablet} {
+  margin-bottom: 32px;
+  margin-top: 10px;
+  max-width: 250px;
+  font-size: 16px;
+}
+${({ theme }) => theme.device.default} {
+  max-width: 270px;
+
+}
+${({ theme }) => theme.device.desktop} {
+  max-width: 350px;
+  font-size: 20px;
 }
 `;
 
@@ -276,47 +299,36 @@ export const DownText = styled.a`
 text-decoration-line: underline; 
 color: blue;
 `
-export const Number = styled.span`
-font-family: ${({ theme }) => theme.fonts.descr.regular};
-font-size: 20px;
-line-height: 0.8;
-padding-top: 30%;
-padding: 10px 16px;
+export const NumberDiv =styled.div`
+display: flex;
 background: #F1F1F5;
 border-radius: 50%;
 align-items: center;
 text-align: center;
 margin-right: 12px;
+width: 40px;
 height: 40px;
-
-${({ theme }) => theme.device.tablet} {
-  margin-right: 22px;
-}
-${({ theme }) => theme.device.default} {
-  margin-right: 32px;
-}
-${({ theme }) => theme.device.desktop} {
-  
-}
 `
 
-export const NumberAc = styled.span`
-padding: 10px 16px;
-background: #FFFFFF;
-border-radius: 50%;
-margin-right: 12px;
+
+export const Number = styled.p`
+font-family: ${({ theme }) => theme.fonts.descr.regular};
+font-size: 14px;
+line-height: 0.8;
+align-items: center;
 text-align: center;
-height: 40px;
+margin: 0 auto;
 ${({ theme }) => theme.device.tablet} {
-  margin-right: 22px;
+  font-size: 16px;
 }
 ${({ theme }) => theme.device.default} {
-  margin-right: 32px;
-}
-${({ theme }) => theme.device.desktop} {
   
 }
+${({ theme }) => theme.device.desktop} {
+  font-size: 20px;
+}
 `
+
 export const AccordLi =styled.li`
   padding: 30px 0 15px;
 ${({ theme }) => theme.device.tablet} {

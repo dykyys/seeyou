@@ -14,10 +14,11 @@ import {
         YouTube,
         DownText,
         Number,
-        NumberAc,
         Hero,
         AccordLi,
-        LLC
+        LLC,
+        NumberDiv,
+        DiscriptionAc
         } from '../Zoom/Zoom.styled';
 import {
     ChakraProvider,
@@ -40,7 +41,7 @@ import Container from '../Container/Container.styled';
 import ZoomPDF from '../../PDF/Zoom_SEEYOU_v2_2.pdf';
 import { Image } from '@chakra-ui/react';
 import HeroWebex from '../../image/Webex/webex_hero.svg';
-import Registr from '../../image/Webex/registr.svg';
+import Registr from '../../image/Zoom/registr.svg';
 import Sync from '../../image/Zoom/sync.svg';
 import Create from '../../image/Zoom/create.svg';
 import Calender from '../../image/Webex/calendar.svg';
@@ -112,7 +113,9 @@ const WebexHero = () =>{
                                <div style={{
                                display: 'flex'
                                }}>
-                               <Number>1</Number>
+                               <NumberDiv>
+                                <Number>1</Number>
+                                </NumberDiv>
                                <Discription>
                                First install SEEYOU via <DownText href='/downloads'>downloads</DownText>
                                </Discription>
@@ -120,7 +123,9 @@ const WebexHero = () =>{
                                <div style={{
                                display: 'flex'
                                }}>
-                               <Number>2</Number>
+                               <NumberDiv>
+                                <Number>2</Number>
+                                </NumberDiv>
                                <Discription>
                                Then create your SEEYOU account
                                </Discription>
@@ -135,14 +140,18 @@ const WebexHero = () =>{
                            <div style={{
                                display: 'flex'
                                }}>
-                               <Number>3</Number>
+                               <NumberDiv>
+                                <Number>3</Number>
+                                </NumberDiv>
                                <Discription>
                                Navigate to the Calendar tab
                                </Discription>
                                </div><div style={{
                                display: 'flex'
                                }}>
-                               <Number>4</Number>
+                               <NumberDiv>
+                                <Number>4</Number>
+                                </NumberDiv>
                                <Discription>
                                Follow the guide by clicking Next
                                </Discription>
@@ -154,7 +163,9 @@ const WebexHero = () =>{
                                <Image margin='0 auto' src={Create} alt="Zoom" />
                            </GlobalImage>
                            <GlobalBoxFlex>
-                               <Number>5</Number>
+                           <NumberDiv>
+                                <Number>5</Number>
+                                </NumberDiv>
                                <Discription>
                                Click on the + icon in the top right to create a Webex event. When connecting for the first
 time, you need to connect to your Google or Microsoft Outlook calendar
@@ -166,7 +177,9 @@ time, you need to connect to your Google or Microsoft Outlook calendar
                                <Image margin='0 auto' src={Calender} alt="Zoom" />
                            </GlobalImage>
                            <GlobalBoxFlex>
-                               <Number>6</Number>
+                           <NumberDiv>
+                                <Number>6</Number>
+                                </NumberDiv>
                                <Discription>
                                Once connected, you can now see all your meetings from your respective calendars in one joint calendar, Zoom meetings included
                                </Discription>
@@ -180,7 +193,9 @@ time, you need to connect to your Google or Microsoft Outlook calendar
                                <div style={{
                                display: 'flex'
                                }}>
-                               <Number>7</Number>
+                               <NumberDiv>
+                                <Number>7</Number>
+                                </NumberDiv>
                                <Discription>
                                SEEYOU simplifies booking Webex meetings. After connecting your Webex account, click the
                                 Webex icon to create a Webex event
@@ -189,7 +204,9 @@ time, you need to connect to your Google or Microsoft Outlook calendar
                                <div style={{
                                display: 'flex'
                                }}>
-                               <Number>8</Number>
+                               <NumberDiv>
+                                <Number>8</Number>
+                                </NumberDiv>
                                <Discription>
                                Creating a Webex event can quickly be done within the SEEYOU app
                                </Discription>
@@ -201,7 +218,9 @@ time, you need to connect to your Google or Microsoft Outlook calendar
                                <Image margin='0 auto' src={Dev} alt="Zoom" />
                            </GlobalImage>
                            <GlobalBoxFlex>
-                               <Number>9</Number>
+                           <NumberDiv>
+                                <Number>9</Number>
+                                </NumberDiv>
                                <Discription>
                                All Webex conferences appear in the SEEYOU calendar, and your most immediate ones also
                                 appear on the SEEYOU homepage. Joining is as simple as just clicking Join button
@@ -213,7 +232,9 @@ time, you need to connect to your Google or Microsoft Outlook calendar
                                <Image margin='0 auto' src={Toolbar} alt="Zoom" />
                            </GlobalImage>
                            <GlobalBoxFlex>
-                               <Number>10</Number>
+                           <NumberDiv>
+                                <Number>10</Number>
+                                </NumberDiv>
                                <Discription>
                                The SEEYOU toolbar makes it easier for non-Webex users to instantly familiarize themselves
 with the Webex platform when inside the Webex conference. For experienced Webex users, it
@@ -265,7 +286,11 @@ introduces  additional functionalities to the already outstanding Webex platform
                                            <Image margin='0 auto' src={Accord1} alt="Zoom" />
                                        </GlobalImageAccord>
                                        <GlobalBoxFlexAccord>
-                                           <NumberAc>1</NumberAc>
+                                       <NumberDiv style={{
+                               backgroundColor: 'white'
+                               }}>
+                                            <Number>1</Number>
+                                            </NumberDiv>
                                            <Discription>
                                             From your SEEYOU account, under your profile info, click on Settings, then navigate to the
                                             Providers and Emails tab.
@@ -277,7 +302,11 @@ introduces  additional functionalities to the already outstanding Webex platform
                                            <Image margin='0 auto' src={Accord2} alt="Zoom" />
                                        </GlobalImageAccord>
                                        <GlobalBoxFlexAccord>
-                                           <NumberAc>2</NumberAc>
+                                       <NumberDiv style={{
+                               backgroundColor: 'white'
+                               }}>
+                                            <Number>2</Number>
+                                            </NumberDiv>
                                            <Discription>
                                            Then simply click on the Disconnect icon on the right. Once
                                             disconnected, you are no longer able to create Webex meetings within SEEYOU.

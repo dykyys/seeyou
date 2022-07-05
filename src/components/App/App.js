@@ -15,6 +15,7 @@ import Zoom from '../../pages/Zoom';
 import Webex from '../../pages/Webex';
 import Google from '../../pages/Google/Google'
 import Microsoft from '../../pages/MicrosoftTeams/Microsoft'
+import Bluejeans from '../../pages/Bluejeans/Bluejeans'
 import Request from '../../pages/Request';
 import Delete from '../../pages/DeleteAccount';
 import End from '../../pages/EndEncryption';
@@ -39,6 +40,7 @@ function App() {
         <Route path="providers-webex" element={<Webex />} />
         <Route path="providers-google" element={<Google />} />
         <Route path="providers-microsoft" element={<Microsoft />} />
+        <Route path="providers-bluejeans" element={<Bluejeans />} />
         <Route path="request-access" element={<Request />} />
         <Route path="delete-account" element={<Delete />} />
         <Route path="end-to-end-encryption" element={<End />} />

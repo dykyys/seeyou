@@ -14,10 +14,11 @@ import {
         YouTube,
         DownText,
         Number,
-        NumberAc,
+        NumberDiv,
         Hero,
         AccordLi,
-        LLC
+        LLC,
+        DiscriptionAc
         } from '../Zoom/Zoom.styled';
 import {
     ChakraProvider,
@@ -39,7 +40,7 @@ import { MinusIcon, AddIcon } from '@chakra-ui/icons';
 import Container from '../Container/Container.styled';
 import { Image } from '@chakra-ui/react';
 import HeroMicro from '../../image/MicrosoftTeams/MicrosoftHero.svg';
-import Registr from '../../image/MicrosoftTeams/registr.svg';
+import Registr from '../../image/Zoom/registr.svg';
 import Sync from '../../image/Zoom/sync.svg';
 import Create from '../../image/Zoom/create.svg';
 import Calender from '../../image/MicrosoftTeams/calendar.svg';
@@ -111,7 +112,9 @@ const MicroHero = () =>{
                                <div style={{
                                display: 'flex'
                                }}>
-                               <Number>1</Number>
+                               <NumberDiv>
+                                <Number>1</Number>
+                                </NumberDiv>
                                <Discription>
                                First install SEEYOU via <DownText href='/downloads'>downloads</DownText>
                                </Discription>
@@ -119,7 +122,9 @@ const MicroHero = () =>{
                                <div style={{
                                display: 'flex'
                                }}>
-                               <Number>2</Number>
+                               <NumberDiv>
+                                <Number>2</Number>
+                                </NumberDiv>
                                <Discription>
                                Then create your SEEYOU account
                                </Discription>
@@ -134,14 +139,18 @@ const MicroHero = () =>{
                            <div style={{
                                display: 'flex'
                                }}>
-                               <Number>3</Number>
+                               <NumberDiv>
+                                <Number>3</Number>
+                                </NumberDiv>
                                <Discription>
                                Navigate to the Calendar tab
                                </Discription>
                                </div><div style={{
                                display: 'flex'
                                }}>
-                               <Number>4</Number>
+                               <NumberDiv>
+                                <Number>4</Number>
+                                </NumberDiv>
                                <Discription>
                                Follow the guide by clicking Next
                                </Discription>
@@ -153,7 +162,9 @@ const MicroHero = () =>{
                                <Image margin='0 auto' src={Create} alt="Zoom" />
                            </GlobalImage>
                            <GlobalBoxFlex>
-                               <Number>5</Number>
+                           <NumberDiv>
+                                <Number>5</Number>
+                                </NumberDiv>
                                <Discription>
                                Click on the + icon in the top right to create a Microsoft event. When connecting for the first
 time, you need to connect to your Google or Microsoft Outlook calendar
@@ -165,7 +176,9 @@ time, you need to connect to your Google or Microsoft Outlook calendar
                                <Image margin='0 auto' src={Calender} alt="Zoom" />
                            </GlobalImage>
                            <GlobalBoxFlex>
-                               <Number>6</Number>
+                           <NumberDiv>
+                                <Number>6</Number>
+                                </NumberDiv>
                                <Discription>
                                Once connected, you can now see all your meetings from your respective calendars in one
 joint calendar, Microsoft Teams ad Skype meetings included
@@ -180,7 +193,9 @@ joint calendar, Microsoft Teams ad Skype meetings included
                                <div style={{
                                display: 'flex'
                                }}>
-                               <Number>7</Number>
+                               <NumberDiv>
+                                <Number>7</Number>
+                                </NumberDiv>
                                <Discription>
                                SEEYOU simplifies booking Microsoft meetings. After connecting your Microsoft account, click the
 Microsoft icon to create an event
@@ -189,7 +204,9 @@ Microsoft icon to create an event
                                <div style={{
                                display: 'flex'
                                }}>
-                               <Number>8</Number>
+                               <NumberDiv>
+                                <Number>8</Number>
+                                </NumberDiv>
                                <Discription>
                                Creating a Microsoft Teams/Skype event can quickly be done within the SEEYOU app
                                </Discription>
@@ -201,7 +218,9 @@ Microsoft icon to create an event
                                <Image margin='0 auto' src={Dev} alt="Zoom" />
                            </GlobalImage>
                            <GlobalBoxFlex>
-                               <Number>9</Number>
+                           <NumberDiv>
+                                <Number>9</Number>
+                                </NumberDiv>
                                <Discription>
                                All Microsoft conferences appear in the SEEYOU calendar, and your most immediate ones also
 appear on the SEEYOU homepage. Joining is as simple as just clicking Join button
@@ -213,7 +232,9 @@ appear on the SEEYOU homepage. Joining is as simple as just clicking Join button
                                <Image margin='0 auto' src={Toolbar} alt="Zoom" />
                            </GlobalImage>
                            <GlobalBoxFlex>
-                               <Number>10</Number>
+                           <NumberDiv>
+                                <Number>10</Number>
+                                </NumberDiv>
                                <Discription>
                                The SEEYOU toolbar makes it easier for non-Microsoft users to instantly familiarize themselves
 with the Teams/Skype platforms when inside the conference. For experienced Teams/Skype users, it
@@ -265,11 +286,15 @@ introduces additional functionalities to the already outstanding Microsoft platf
                                            <Image margin='0 auto' src={Accord1} alt="Zoom" />
                                        </GlobalImageAccord>
                                        <GlobalBoxFlexAccord>
-                                           <NumberAc>1</NumberAc>
-                                           <Discription>
+                                            <NumberDiv style={{
+                               backgroundColor: 'white'
+                               }}>
+                                            <Number>1</Number>
+                                            </NumberDiv>
+                                           <DiscriptionAc>
                                            From your SEEYOU account, under your profile info, click on Settings, then navigate to the
  Providers and Emails tab.
-                                           </Discription>
+                                           </DiscriptionAc>
                                        </GlobalBoxFlexAccord>
                                            </AccordLi>
                                            <AccordLi>
@@ -277,11 +302,15 @@ introduces additional functionalities to the already outstanding Microsoft platf
                                            <Image margin='0 auto' src={Accord2} alt="Zoom" />
                                        </GlobalImageAccord>
                                        <GlobalBoxFlexAccord>
-                                           <NumberAc>2</NumberAc>
-                                           <Discription>
+                                            <NumberDiv style={{
+                               backgroundColor: 'white'
+                               }}>
+                                            <Number>2</Number>
+                                            </NumberDiv>
+                                           <DiscriptionAc>
                                            Then simply click on the Disconnect icon on the right. Once
 disconnected, you are no longer able to create Microsoft meetings within SEEYOU.
-                                           </Discription>
+                                           </DiscriptionAc>
                                        </GlobalBoxFlexAccord>
                                            </AccordLi>
                                        </ul>
