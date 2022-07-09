@@ -70,11 +70,11 @@ margin-bottom: 50px;
 ${({ theme }) => theme.device.tablet} {
   margin-bottom: 32px;
   margin-top: 10px;
-  max-width: 250px;
+  max-width: 310px;
   font-size: 16px;
 }
 ${({ theme }) => theme.device.default} {
-  max-width: 270px;
+  max-width: 310px;
 
 }
 ${({ theme }) => theme.device.desktop} {
@@ -144,19 +144,18 @@ export const GlobalBox = styled.div`
   
   padding-right: 8px;
   padding-left: 8px;
-  margin-bottom: 0px;
   
   ${({ theme }) => theme.device.tablet} {
     margin: 0 auto;
     width: 310px;
     text-align: left;
-    margin-bottom: 0px;
+
     padding-right: 10px;
     padding-left: 10px;
   }
   ${({ theme }) => theme.device.default} {
     width: 416px;
-    
+    padding-left: 20px;
     padding-right: 20px;
   }
   ${({ theme }) => theme.device.desktop} {

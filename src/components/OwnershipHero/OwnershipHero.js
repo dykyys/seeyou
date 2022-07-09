@@ -21,7 +21,7 @@ import Slice from 'image/co-owners/Slice.png';
 import Earn from 'image/co-owners/Earning.png';
 import Create from 'image/co-owners/Creat.png';
 import Invite from 'image/co-owners/Invite.png';
-import Ads from 'image/co-owners/Ads.png';
+import Ads from 'image/co-owners/ads.png';
 
 const OwnerHero = () => {
   return (

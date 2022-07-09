@@ -10,8 +10,8 @@ const PopupPro= () => (
         <Link to="/providers-webex"> Webex by Cisco</Link>
         <Link to="/providers-zoom"> Zoom</Link>
         <Link to="/providers-bluejeans"> Bluejeans</Link>
-        <Link to="/"> Huawei</Link>
-        <Link to="/"> Starleaf</Link>
+        <Link to="/providers-huawei"> Huawei</Link>
+        <Link to="/providers-starleaf"> Starleaf</Link>
       </PopupBox>
     }
     on={['focus', 'hover', 'click']}

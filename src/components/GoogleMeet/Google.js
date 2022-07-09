@@ -2,6 +2,7 @@
 import { 
     Title,
         Discription,
+        DiscriptionAc,
         Link,
         Section,
         GlobalBox, 
@@ -18,7 +19,6 @@ import {
         Hero,
         AccordLi,
         LLC,
-        DiscriptionAc
         } from '../Zoom/Zoom.styled';
 import {
     ChakraProvider,
@@ -38,7 +38,6 @@ import {
 import React from 'react';
 import { MinusIcon, AddIcon } from '@chakra-ui/icons';
 import Container from '../Container/Container.styled';
-import ZoomPDF from '../../PDF/Zoom_SEEYOU_v2_2.pdf';
 import { Image } from '@chakra-ui/react';
 import HeroGoogle from '../../image/Google/google_hero.svg';
 import Registr from '../../image/Zoom/registr.svg';
@@ -50,7 +49,6 @@ import Dev from '../../image/Google/dev.svg';
 import Toolbar from '../../image/Google/toolbar.png';
 import Accord1 from '../../image/Google/accord1.svg';
 import Accord2 from '../../image/Google/accord2.svg';
-import Last from '../../image/Zoom/last.svg';
 
 
  
@@ -113,7 +111,9 @@ const GoogleHero = () =>{
                                <div style={{
                                display: 'flex'
                                }}>
-                               <Number>1</Number>
+                               <NumberDiv>
+                                <Number>1</Number>
+                                </NumberDiv>
                                <Discription>
                                First install SEEYOU via <DownText href='/downloads'>downloads</DownText>
                                </Discription>
@@ -121,7 +121,9 @@ const GoogleHero = () =>{
                                <div style={{
                                display: 'flex'
                                }}>
-                               <Number>2</Number>
+                               <NumberDiv>
+                                <Number>2</Number>
+                                </NumberDiv>
                                <Discription>
                                Then create your SEEYOU account
                                </Discription>
@@ -136,14 +138,18 @@ const GoogleHero = () =>{
                            <div style={{
                                display: 'flex'
                                }}>
-                               <Number>3</Number>
+                               <NumberDiv>
+                                <Number>3</Number>
+                                </NumberDiv>
                                <Discription>
                                Navigate to the Calendar tab
                                </Discription>
                                </div><div style={{
                                display: 'flex'
                                }}>
-                               <Number>4</Number>
+                               <NumberDiv>
+                                <Number>4</Number>
+                                </NumberDiv>
                                <Discription>
                                Follow the guide by clicking Next
                                </Discription>
@@ -155,7 +161,9 @@ const GoogleHero = () =>{
                                <Image margin='0 auto' src={Create} alt="Zoom" />
                            </GlobalImage>
                            <GlobalBoxFlex>
-                               <Number>5</Number>
+                           <NumberDiv>
+                                <Number>5</Number>
+                                </NumberDiv>
                                <Discription>
                                Click on the + icon in the top right to create a Google Meet event. When connecting for the first
 time, you need to connect to your Google or Microsoft Outlook calendar
@@ -167,7 +175,9 @@ time, you need to connect to your Google or Microsoft Outlook calendar
                                <Image margin='0 auto' src={Calender} alt="Zoom" />
                            </GlobalImage>
                            <GlobalBoxFlex>
-                               <Number>6</Number>
+                           <NumberDiv>
+                                <Number>6</Number>
+                                </NumberDiv>
                                <Discription>
                                Once connected, you can now see all your meetings from your respective calendars in one
 joint calendar, Google Meet meetings included
@@ -182,7 +192,9 @@ joint calendar, Google Meet meetings included
                                <div style={{
                                display: 'flex'
                                }}>
-                               <Number>7</Number>
+                               <NumberDiv>
+                                <Number>7</Number>
+                                </NumberDiv>
                                <Discription>
                                SEEYOU simplifies booking Google Meet meetings. After connecting your Google Meet account, click the
 Google Meet icon to create a Google Meet event
@@ -191,7 +203,9 @@ Google Meet icon to create a Google Meet event
                                <div style={{
                                display: 'flex'
                                }}>
-                               <Number>8</Number>
+                               <NumberDiv>
+                                <Number>8</Number>
+                                </NumberDiv>
                                <Discription>
                                Creating a Google Meet event can quickly be done within the SEEYOU app
                                </Discription>
@@ -203,7 +217,9 @@ Google Meet icon to create a Google Meet event
                                <Image margin='0 auto' src={Dev} alt="Zoom" />
                            </GlobalImage>
                            <GlobalBoxFlex>
-                               <Number>9</Number>
+                           <NumberDiv>
+                                <Number>9</Number>
+                                </NumberDiv>
                                <Discription>
                                All Google conferences appear in the SEEYOU calendar, and your most immediate ones also
 appear on the SEEYOU homepage. Joining is as simple as just clicking Join button
@@ -215,7 +231,9 @@ appear on the SEEYOU homepage. Joining is as simple as just clicking Join button
                                <Image margin='0 auto' src={Toolbar} alt="Zoom" />
                            </GlobalImage>
                            <GlobalBoxFlex>
-                               <Number>10</Number>
+                           <NumberDiv>
+                                <Number>10</Number>
+                                </NumberDiv>
                                <Discription>
                                The SEEYOU toolbar makes it easier for non-Google Meet users to instantly familiarize themselves
 with the Google Meet platform when inside the Google Meet conference. For experienced Google Meet users, it
@@ -270,12 +288,14 @@ introduces  additional functionalities to the already outstanding Google Meet pl
                                        <NumberDiv style={{
                                             backgroundColor: 'white'
                                             }}>
+                                           
                                             <Number>1</Number>
+                                            
                                             </NumberDiv>
-                                           <Discription>
+                                           <DiscriptionAc>
                                            From your SEEYOU account, under your profile info, click on Settings, then navigate to the
                                             Providers and Emails tab.
-                                           </Discription>
+                                           </DiscriptionAc>
                                        </GlobalBoxFlexAccord>
                                            </AccordLi>
                                            <AccordLi>
@@ -286,12 +306,14 @@ introduces  additional functionalities to the already outstanding Google Meet pl
                                        <NumberDiv style={{
                                         backgroundColor: 'white'
                                         }}>
+                                            
                                             <Number>2</Number>
+                                            
                                             </NumberDiv>
-                                           <Discription>
+                                           <DiscriptionAc>
                                            Then simply click on the Disconnect icon on the right. Once
                                             disconnected, you are no longer able to create Google Meet meetings within SEEYOU.
-                                           </Discription>
+                                           </DiscriptionAc>
                                        </GlobalBoxFlexAccord>
                                            </AccordLi>
                                        </ul>

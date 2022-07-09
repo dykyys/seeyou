@@ -41,7 +41,8 @@ import Container from '../Container/Container.styled';
 import { Image } from '@chakra-ui/react';
 import HeroMicro from '../../image/MicrosoftTeams/MicrosoftHero.svg';
 import Registr from '../../image/Zoom/registr.svg';
-import Sync from '../../image/Bluejeans/sync.svg';
+import Sync from '../../image/Zoom/sync.svg';
+import Six from '../../image/Bluejeans/six.png';
 import Create from '../../image/Bluejeans/create.svg';
 import Calender from '../../image/Bluejeans/calendar.svg';
 import Booking from '../../image/Bluejeans/booking.svg';
@@ -158,7 +159,7 @@ const BlueHero = () =>{
                        </Item>
                        <Item>
                            <GlobalImage>
-                               <Image margin='0 auto' src={Sync} alt="Zoom" />
+                               <Image margin='0 auto' src={Six} alt="Zoom" />
                            </GlobalImage>
                            <GlobalBoxFlex>
                            <NumberDiv>

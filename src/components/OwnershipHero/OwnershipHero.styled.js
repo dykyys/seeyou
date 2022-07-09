@@ -8,10 +8,10 @@ import Down from '../../image/bg/cloudDown_bg.svg';
 import Leaf from '../../image/bg/leaf_coowner.svg';
 
 export const Section = styled.section`
-padding: 100px 0px 120px;
+padding: 100px 0px 100px;
 
   ${({ theme }) => theme.device.tablet} {
-    padding: 180px 0px 160px;
+    padding: 180px 0px 100px;
     background-repeat: no-repeat;
     background-position: top 7% left, top 20% right, top 64% left, top 82% right, top 95% left  ;
     background-size: small;
@@ -54,22 +54,18 @@ export const SectionTitle = styled.h2`
   font-size: 30px;
   line-height: 1,2;
   text-align: left;
-  margin-top: 50px;
   margin-bottom: 8px;
   color: ${({ theme }) => theme.colors.black};
   ${({ theme }) => theme.device.tablet} {
     font-size: 35px;
-    margin-top: 80px;
     text-align: center;
   }
   ${({ theme }) => theme.device.default} {
     font-size: 35px;
-    margin-top: 100px;
   }
   ${({ theme }) => theme.device.desktop} {
     font-size: 45px;
-    margin-top: 132px;
-  }
+ }
 `;
 export const SectionTitleSub = styled.h2`
   font-family: ${({ theme }) => theme.fonts.title.regular};
@@ -142,22 +138,27 @@ export const ConferenceDiscriptionSub = styled.p`
   }
 `;
 export const OwnerUl = styled.ul`
-  padding-bottom: 20px;
+
   ${({ theme }) => theme.device.tablet} {
-    padding-bottom: 60px;
+   
   }
   ${({ theme }) => theme.device.default} {
-    padding-bottom: 60px;
+
   }
   ${({ theme }) => theme.device.desktop} {
-    padding-bottom: 75px;
+    
   }
 `
 export const ConferenceItem = styled.li`
-  margin-bottom: 100px;
+
+  &:nth-child {
+    margin-bottom: 100px;
+    }
   align-items: center;
   ${({ theme }) => theme.device.tablet} {
-    margin-bottom: 70px;
+    &:nth-child {
+      margin-bottom: 70px;
+      }
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -167,7 +168,6 @@ export const ConferenceItem = styled.li`
     }
   }
   ${({ theme }) => theme.device.default} {
-    margin-bottom: 70px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -177,7 +177,7 @@ export const ConferenceItem = styled.li`
     }
   }
   ${({ theme }) => theme.device.desktop} {
-    margin-bottom: 70px;
+
     
   }
 `;
