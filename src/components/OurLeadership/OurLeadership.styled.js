@@ -94,3 +94,13 @@ export const Light = styled.span`
   margin-bottom: 30px;
   }
 `
+export const LLC = styled.h3`
+  text-align: center;
+  margin: 0 auto;
+  font-family: ${({ theme }) => theme.fonts.descr.regular};
+  font-size: 12px;
+  line-height: 1.22;
+  padding-top:60px;
+  margin-bottom: 20px;
+  color: ${({ theme }) => theme.colors.black_btn};
+`;

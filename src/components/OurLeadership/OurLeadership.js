@@ -1,4 +1,4 @@
-import { SectionTitle, OurDiscription,SectionTitleSub,Light,Box, GlobalSection } from './OurLeadership.styled';
+import { SectionTitle, OurDiscription,SectionTitleSub,Light,Box, GlobalSection, LLC } from './OurLeadership.styled';
 
 import Container from '../Container';
 
@@ -21,6 +21,7 @@ const OurLeadership = () => {
         <OurDiscription>
         <Light>COMMUNICATION</Light> Full transparency | Never sugar-coat the truth; we're not Willy Wonka | No truth-shaving, same message to all | Never announce new functionality before launch | No fortune-telling | No forward-looking statements | From the open release on August 1st, Monthly Active Users and Daily Active Users are reported live within the app | No further performance guidance will be given
         </OurDiscription>
+        <LLC>SEEYOU LLC, The CHQ Building, Custom House Quay, Dublin 1, D01 Y6H7 Ireland</LLC>
       </Box>
       </Container>
     </GlobalSection>

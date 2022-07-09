@@ -30,10 +30,7 @@ import {
   } from '@chakra-ui/react';
 import {
     Questions,
-    Answer,
-    PartnersDiv,
-    PartnersUl,
-    PartnersLi
+    Answer
   } from '../Accordion/Accordion.styled';
 import React from 'react';
 import { MinusIcon, AddIcon } from '@chakra-ui/icons';

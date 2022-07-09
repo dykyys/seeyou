@@ -10,6 +10,7 @@ import {
   OwnerUl,
   DivImg,
   Section,
+  LLC
 } from './OwnershipHero.styled.js';
 import GlobalSection from '../Section';
 import Container from '../Container';
@@ -148,6 +149,10 @@ const OwnerHero = () => {
               
             </GlobalBox>
             
+          </ConferenceItem>
+          <ConferenceItem>
+           
+          <LLC>SEEYOU LLC, The CHQ Building, Custom House Quay, Dublin 1, D01 Y6H7 Ireland</LLC>
           </ConferenceItem>
         
         </OwnerUl>
