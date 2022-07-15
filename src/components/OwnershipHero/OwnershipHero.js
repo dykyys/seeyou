@@ -29,7 +29,7 @@ const OwnerHero = () => {
     <Section>
       <Container>
           <SectionTitle>CO-OWNERSHIP</SectionTitle>
-          <SectionTitleSub>SEEYOU will be partly user-owned. An equivalent of 10% of the original 2.5 million shares will be gifted to active* users and recruiters during the first 25 months after Open Release on August 1st, 2022</SectionTitleSub>
+          <SectionTitleSub>SEEYOU will be partly user-owned. An equivalent of 10% of the original 2.5 million shares will be gifted to active* users and recruiters during the first 25 months, starting from September 2022</SectionTitleSub>
           <SectionTitleSmall>(*Final terms to be announced)</SectionTitleSmall>
         <OwnerUl>
           <ConferenceItem>
@@ -107,7 +107,7 @@ const OwnerHero = () => {
               <ConferenceTitle>Creating a Global Community</ConferenceTitle>
 
               <ConferenceDiscription>
-              SEEYOU will launch in beta in English, with another 48 languages coming by version 2.0 in January 2023. We are then also expanding to Linux and Chromebooks
+              SEEYOU will launch in beta in English, with another 48 languages coming by version 2.0 in February 2023. We are then also expanding to Linux and Chromebooks
               </ConferenceDiscription>
               <ConferenceDiscription>
               SEEYOU is only equitable if wholly free and truly global. Spreading the app around the world matters, and you will therefore get 10 Slices for every new user you recruit

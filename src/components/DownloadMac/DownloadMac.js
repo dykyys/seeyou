@@ -1,5 +1,6 @@
 import { PopLink, PopButton, PopupBox } from './DownloadMac.styled';
 import { Popup } from 'semantic-ui-react';
+import Mac from '../../image/Button/Mac.svg'
 
 const DownloadMac = () => (
   <Popup
@@ -18,7 +19,11 @@ const DownloadMac = () => (
     pinned
     hoverable
     style={{ zIndex: '2' }}
-    trigger={<PopButton>SEEYOU for Mac</PopButton>}
+    trigger={<PopButton><div style={{
+      display: 'flex',
+      margin: '0 auto',
+      alignItems: 'center'
+      }}><img src={Mac}></img><p style={{ marginLeft:'10px'}}>SEEYOU for Mac</p></div></PopButton>}
   />
 );
 

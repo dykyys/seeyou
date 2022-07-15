@@ -5,7 +5,7 @@ import {
   Section,
   GlobalBox,
   ButDiv,
-} from '../Zoom/Zoom.styled';
+} from '../More/More.styled';
 import Container from '../Container/Container.styled';
 
 const RequestHero = () => {

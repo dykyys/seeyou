@@ -99,3 +99,22 @@ export const Image = styled.img`
   }
 `;
 
+export const Date = styled.p`
+  text-align: center;
+  margin-right: 8%;
+  font-family: ${({ theme }) => theme.fonts.descr.regular};
+  font-style: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: ${({ theme }) => theme.colors.placeholder};
+ ${({ theme }) => theme.device.tablet} {
+  text-align: right;
+    
+}
+${({ theme }) => theme.device.default} {
+
+  
+}
+${({ theme }) => theme.device.desktop} {
+
+`

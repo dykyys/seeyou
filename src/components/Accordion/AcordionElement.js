@@ -538,7 +538,7 @@ function Acord() {
                       </AccordionButton>
                     </h2>
                     <AccordionPanel pb={4}>
-                      <Answer>Absolutely</Answer>
+                      <Answer>Starting from version 2.0 you can make notes on your phone</Answer>
                     </AccordionPanel>
                   </>
                 )}

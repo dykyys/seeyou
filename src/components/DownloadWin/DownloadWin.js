@@ -1,10 +1,10 @@
 import { PopLink, PopButton, PopupBox } from './DownloadWin.styled';
 import { Popup } from 'semantic-ui-react';
-import { click } from '@testing-library/user-event/dist/click';
+import Win from '../../image/Button/Win.svg'
 
 const DownloadWin = () => (
   <Popup
-    content={
+     content={
       <PopupBox>
         <PopLink href='' target="">
           For Windows X32
@@ -19,7 +19,11 @@ const DownloadWin = () => (
     pinned
     hoverable
     style={{ zIndex: '2' }}
-    trigger={<PopButton>SEEYOU for Windows</PopButton>}
+  trigger={<PopButton><div style={{
+      display: 'flex',
+      margin: '0 auto',
+      alignItems: 'center'
+      }}><img src={Win}></img><p style={{ marginLeft:'10px'}}>SEEYOU for Windows</p></div></PopButton>}
   />
 );
 

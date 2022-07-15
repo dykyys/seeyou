@@ -1,4 +1,4 @@
-import { Title, Discription, Link, Section, GlobalBox,ButDiv } from '../Zoom/Zoom.styled';
+import { Title, Discription, Link, Section, GlobalBox,ButDiv } from '../More/More.styled';
 import Container from '../Container/Container.styled';
 import EndPDF from '../../PDF/Encryption.pdf';
 
@@ -10,7 +10,7 @@ import EndPDF from '../../PDF/Encryption.pdf';
              <Section>
             <Container>
                 <GlobalBox>
-                    <Title>End To End Encryption</Title>
+                    <Title>End-To-End Encryption</Title>
                     <Discription>
                     SEEYOU's chat, video and voice calls are end-to-end encrypted, meaning they’re genuinely private.
                     </Discription>
@@ -19,7 +19,7 @@ SEEYOU cannot read the content nor see with whom you are communicating. Nor can 
                     </Discription>
                     <ButDiv>
                     <Link href={EndPDF} target="_blank">
-                    End To End Encryption White Paper
+                    End-To-End Encryption White Paper
                     </Link>
                     </ButDiv>
                 </GlobalBox>

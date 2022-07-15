@@ -166,10 +166,9 @@ const Conference = () => {
                 <br /> Program
               </SubTitle>
               <DiscriptionWithMargin>
-                SEEYOU will be partly user-owned. An equivalent of 10% of the
-                original 2.5 million shares will be gifted to active* users and
-                recruiters during the first 25 months after Open Release on
-                August 1st, 2022
+              SEEYOU will be partly user-owned. An equivalent of 10% of the original 2.5 million
+               shares will be gifted to active* users and recruiters during the first 25 months, 
+               starting from September 2022
               </DiscriptionWithMargin>
               <DiscriptionSub>(*Terms to be announced)</DiscriptionSub>
             </GlobalBox>

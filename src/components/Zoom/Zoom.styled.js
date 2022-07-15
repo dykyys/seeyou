@@ -66,7 +66,9 @@ font-family: ${({ theme }) => theme.fonts.descr.regular};
 font-size: 14px;
 line-height: 1.35;
 color: ${({ theme }) => theme.colors.primaryText};
+margin-top: 10px;
 margin-bottom: 50px;
+max-width: 260px;
 ${({ theme }) => theme.device.tablet} {
   margin-bottom: 32px;
   margin-top: 10px;
@@ -88,6 +90,8 @@ font-size: 14px;
 line-height: 1.35;
 color: ${({ theme }) => theme.colors.primaryText};
 margin-bottom: 50px;
+margin-top: 10px;
+max-width: 250px;
 ${({ theme }) => theme.device.tablet} {
   margin-bottom: 32px;
   margin-top: 10px;

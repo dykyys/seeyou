@@ -1,10 +1,8 @@
 import styled from 'styled-components';
-import Leaf2 from '../../image/bg/leaf2_bg.svg';
 import Cloud from '../../image/bg/cloud_bg.svg';
 import Cloud2 from '../../image/bg/cloud2_bg.svg';
 import Sfera2 from '../../image/bg/Sfers_left_coowner.svg';
 import Sfera from '../../image/bg/sfera_bg.svg';
-import Down from '../../image/bg/cloudDown_bg.svg';
 import Leaf from '../../image/bg/leaf_coowner.svg';
 
 export const Section = styled.section`
@@ -151,20 +149,23 @@ export const OwnerUl = styled.ul`
 `
 export const ConferenceItem = styled.li`
 
-  &:nth-child {
-    margin-bottom: 100px;
-    }
+
   align-items: center;
+  &:not(:last-child) {
+    margin-bottom: 80px;
+  }
+    
   ${({ theme }) => theme.device.tablet} {
-    &:nth-child {
-      margin-bottom: 70px;
-      }
+
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-direction: row;
     &:nth-child(2n) {
     flex-direction: row-reverse;
+    }
+    &:not(:last-child) {
+      margin-bottom: 120px;
     }
   }
   ${({ theme }) => theme.device.default} {
@@ -178,7 +179,6 @@ export const ConferenceItem = styled.li`
   }
   ${({ theme }) => theme.device.desktop} {
 
-    
   }
 `;
 export const Image = styled.img`

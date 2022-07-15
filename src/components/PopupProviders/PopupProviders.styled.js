@@ -20,7 +20,7 @@ export const Link = styled(NavLink)`
   color: ${({ theme }) => theme.colors.dark};
   font-size: 14px;
   line-height: 1.5;
-
+  margin-left: 15px;
   &.active {
     font-family: ${({ theme }) => theme.fonts.descr.bold};
   }
@@ -35,9 +35,6 @@ export const PopButton = styled.button`
   color: ${({ theme }) => theme.colors.dark};
   font-size: 14px;
   line-height: 1.5;
-  &:hover{
-    font-family: ${({ theme }) => theme.fonts.descr.bold};
-  }
 
   
   ${({ theme }) => theme.device.desktop} {
@@ -45,7 +42,7 @@ export const PopButton = styled.button`
   }
 `;
 export const PopupBox = styled.div`
-  width: 239px;
+  width: 150px;
   height: 420px;
   background: #fff;
   box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);

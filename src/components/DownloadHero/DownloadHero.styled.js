@@ -6,15 +6,15 @@ export const Section = styled.section`
   padding-bottom: 80px;
   ${({ theme }) => theme.device.tablet} {
     padding-top: 120px;
-    padding-bottom: 100px;
+    padding-bottom: 120px;
   }
   ${({ theme }) => theme.device.default} {
     padding-top: 183px;
-    padding-bottom: 123px;
+    padding-bottom: 143px;
   }
   ${({ theme }) => theme.device.desktop} {
     padding-top: 162px;
-    padding-bottom: 100px;
+    padding-bottom: 180px;
   }
 `;
 
@@ -26,7 +26,7 @@ export const Title = styled.h2`
   text-align: left;
   color: ${({ theme }) => theme.colors.black_btn};
   ${({ theme }) => theme.device.tablet} {
-    margin-bottom: 16px;
+    margin-bottom: 32px;
     text-align: left;
   }
   ${({ theme }) => theme.device.default} {
@@ -39,6 +39,34 @@ export const Title = styled.h2`
     line-height: 1.2;
     width: 240px;
   }
+`;
+
+export const PopButton = styled.a`
+display: flex;
+margin: 0 auto;
+text-align: center;
+width: 200px;
+font-family: ${({ theme }) => theme.fonts.descr.semiBold};
+padding: 14px 0;
+border-radius: 4px;
+color: ${({ theme }) => theme.colors.white};
+
+font-size: 14px;
+line-height: 1.25;
+height: 53px;
+background: ${({ theme }) => theme.colors.primary};
+
+${({ theme }) => theme.device.tablet} {
+  margin: 0;
+  padding: 14px 0;
+  text-align: center;
+  font-size: 14px;
+}
+${({ theme }) => theme.device.default} {
+  height: 59px;
+  width: 245px;
+  font-size: 16px;
+}
 `;
 
 export const DownloadMobileTitle = styled.h2`
@@ -63,7 +91,7 @@ export const DownloadMobileTitle = styled.h2`
 export const HeroThumb = styled.div`
   margin-bottom: 16px;
   ${({ theme }) => theme.device.tablet} {
-    width: 300px;
+    width: 400px;
     margin: 0 auto;
     margin-top: 32px;
   }
@@ -96,9 +124,9 @@ export const HeroDiscription = styled.p`
   text-align: left;
   color: ${({ theme }) => theme.colors.black_btn};
 
-  margin-bottom: 16px;
+  margin-bottom: 24px;
   ${({ theme }) => theme.device.tablet} {
-
+    width: 260px;
     text-align: left;
   }
   ${({ theme }) => theme.device.default} {
@@ -106,10 +134,11 @@ export const HeroDiscription = styled.p`
     font-size: 16px;
     line-height: 1.3;
     text-align: left;
+    margin-bottom: 32px;
   }
 
   ${({ theme }) => theme.device.desktop} {
-    width: 290px;
+    width: 360px;
   }
 `;
 
@@ -149,20 +178,21 @@ export const HeroContainer = styled(Container)`
     }
   }
   ${({ theme }) => theme.device.default} {
-    
+    &:not(:last-child) {
+      margin-bottom: 120px;
+    }
   }
   ${({ theme }) => theme.device.desktop} {
-    &:not(:last-child) {
-      margin-bottom: 206px;
-    }
+    
   }
 `;
 
 export const DownloadList = styled.ul`
-  
-  justify-content: center;
+  margin: 0 auto;
+  text-align: center;
   ${({ theme }) => theme.device.tablet} {
     display: block;
+    text-align: left;
   }
   ${({ theme }) => theme.device.default} {
     

@@ -4,19 +4,20 @@ import {
   PartnersLi,
   ProTitle,
   GlobalSection,
-  Image
+  Image,
+  Date
 } from './Providers.styled';
-
+import Container from '../../Container/Container.styled'
 import GoogleMeet from '../../../image/providers/google.svg';
 import Microsoft from '../../../image/providers/MS.svg';
 import Webex from '../../../image/providers/webex.svg';
 import Zoom from '../../../image/providers/zoom.svg';
-import Avaya from '../../../image/providers/avaya.svg';
+import Avaya from '../../../image/providers/AvayaStar.svg';
 import Bluejeans from '../../../image/providers/bluejeans.svg';
 import Huawei from '../../../image/providers/huawei.svg';
 import StarLeaf from '../../../image/providers/starleaf.svg';
-import GoTo from '../../../image/providers/goto.svg';
-import LifeSize from '../../../image/providers/lifesize.svg';
+import GoTo from '../../../image/providers/gotoStar.svg';
+import LifeSize from '../../../image/providers/LifiSizeStar.svg';
 import BrandsMobile from '../../../image/providers/partnersMobile.png';
 import MediaQuery from 'components/MediaQuery';
 
@@ -25,6 +26,7 @@ const Provider = () => {
   return (
 
       <GlobalSection>
+        <Container>
        <PartnersDiv>
             <ProTitle>
             Video Conference Providers
@@ -153,6 +155,8 @@ const Provider = () => {
               </PartnersUl>
               </MediaQuery>
           </PartnersDiv>
+          <Date>* October 2022</Date>
+          </Container>
    </GlobalSection>
   );
 };
