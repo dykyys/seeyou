@@ -6,11 +6,12 @@ export const PopLink = styled.a`
   color: ${({ theme }) => theme.colors.dark};
   font-size: 14px;
   line-height: 1.5;
-
+  margin-left: 15px;
   &.active {
     font-family: ${({ theme }) => theme.fonts.descr.bold};
   }
   ${({ theme }) => theme.device.tablet} {
+    text-align: left;
     font-size: 14px;
     margin-left: 15px;
   }
@@ -20,11 +21,12 @@ export const Link = styled(NavLink)`
   color: ${({ theme }) => theme.colors.dark};
   font-size: 14px;
   line-height: 1.5;
-
+  margin-left: 15px;
   &.active {
     font-family: ${({ theme }) => theme.fonts.descr.bold};
   }
   ${({ theme }) => theme.device.tablet} {
+    text-align: left;
     font-size: 14px;
     margin-left: 15px;
   }
@@ -35,12 +37,13 @@ export const PopButton = styled.button`
   color: ${({ theme }) => theme.colors.dark};
   font-size: 14px;
   line-height: 1.5;
+
   ${({ theme }) => theme.device.desktop} {
     font-size: 18px;
   }
 `;
 export const PopupBox = styled.div`
-  width: 239px;
+  width: 170px;
   height: 420px;
   background: #fff;
   box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);

@@ -9,6 +9,8 @@ import {
   Image,
   OwnerUl,
   DivImg,
+  Section,
+  LLC
 } from './OwnershipHero.styled.js';
 import GlobalSection from '../Section';
 import Container from '../Container';
@@ -20,14 +22,14 @@ import Slice from 'image/co-owners/Slice.png';
 import Earn from 'image/co-owners/Earning.png';
 import Create from 'image/co-owners/Creat.png';
 import Invite from 'image/co-owners/Invite.png';
-import Ads from 'image/co-owners/Ads.png';
+import Ads from 'image/co-owners/ads.png';
 
 const OwnerHero = () => {
   return (
-    <GlobalSection>
+    <Section>
       <Container>
           <SectionTitle>CO-OWNERSHIP</SectionTitle>
-          <SectionTitleSub>SEEYOU will be partly user-owned. An equivalent of 10% of the original 2.5 million shares will be gifted to active* users and recruiters during the first 25 months after Open Release on August 1st, 2022</SectionTitleSub>
+          <SectionTitleSub>SEEYOU will be partly user-owned. An equivalent of 10% of the original 2.5 million shares will be gifted to active* users and recruiters during the first 25 months, starting from September 2022</SectionTitleSub>
           <SectionTitleSmall>(*Final terms to be announced)</SectionTitleSmall>
         <OwnerUl>
           <ConferenceItem>
@@ -66,10 +68,10 @@ const OwnerHero = () => {
               </DivImg>
             </GlobalImage>
             <GlobalBox>
-              <ConferenceTitle>Slices of the Monthly Pies</ConferenceTitle>
+              <ConferenceTitle>Slices of the Monthly Token Pies</ConferenceTitle>
 
               <ConferenceDiscription>
-              Starting on July 31st, 2022, one million tokens will be awarded to users monthly for 25 months. Each month you can earn Slices of the monthly pie. Slices are earned from personal use, and new users generated*
+              Starting from September 2022, one million tokens will be awarded to users monthly for 25 months. Each month you can earn Slices of the monthly pie. Slices are earned from personal use, and new users generated*
               </ConferenceDiscription>
               <ConferenceDiscription>
               On the last day of each month, you will be credited an amount of SEEYOU equity Tokens corresponding to your relative number of Slices in the monthly pie
@@ -105,7 +107,7 @@ const OwnerHero = () => {
               <ConferenceTitle>Creating a Global Community</ConferenceTitle>
 
               <ConferenceDiscription>
-              SEEYOU will launch in 48 languages, with the two major right to left languages, Arabic and Hebrew, to come. We are expanding to Linux and Chromebooks before the Open Launch on August 1st. On mobile, we will also add Huawei before year-end
+              SEEYOU will launch in beta in English, with another 48 languages coming by version 2.0 in February 2023. We are then also expanding to Linux and Chromebooks
               </ConferenceDiscription>
               <ConferenceDiscription>
               SEEYOU is only equitable if wholly free and truly global. Spreading the app around the world matters, and you will therefore get 10 Slices for every new user you recruit
@@ -148,10 +150,14 @@ const OwnerHero = () => {
             </GlobalBox>
             
           </ConferenceItem>
+          <ConferenceItem>
+           
+          <LLC>SEEYOU LLC, The CHQ Building, Custom House Quay, Dublin 1, D01 Y6H7 Ireland</LLC>
+          </ConferenceItem>
         
         </OwnerUl>
       </Container>
-    </GlobalSection>
+    </Section>
   );
 };
 export default OwnerHero;

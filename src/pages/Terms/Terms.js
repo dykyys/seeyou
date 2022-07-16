@@ -5,7 +5,10 @@
 // import DownloadMobileFooter from '../../components/DownloadMobileFooter';
 // import MediaQuery from '../../components/MediaQuery';
 // import TermsOfService from '../../PDF/SEEYOU_TERMS_OF_SERVICE.pdf';
+import { ScrollToTop } from 'hooks/ScrollToTop';
+
 const Terms = () => {
+  ScrollToTop();
   return (
     <div>terms</div>
     // <>

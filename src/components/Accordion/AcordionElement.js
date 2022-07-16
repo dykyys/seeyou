@@ -54,6 +54,58 @@ function Acord() {
                         _focus={{
                           boxShadow: 'none',
                         }}
+                        paddingRight="40px"
+                      >
+                        <Box flex="1" textAlign="left">
+                          <Questions>
+                            SEEYOU doesn't load properly. What should I do?
+                          </Questions>
+                        </Box>
+                        {isExpanded ? (
+                          <MinusIcon fontSize="12px" />
+                        ) : (
+                          <AddIcon fontSize="12px" />
+                        )}
+                      </AccordionButton>
+                    </h2>
+                    <AccordionPanel pb={4}>
+                      <Answer>
+                      <p>Please bear in mind that SEEYOU is still in Beta mode, and we constantly update and improve aspects of the app.</p>
+                      <br/><p>Sometimes this requires one of the following actions:</p><br/>
+                        <ul style={{
+                          listStyleType:'disc',
+                          paddingLeft:'20px',
+                          }}>
+                              <li>Please check your internet connection</li>
+                              <li>Alternatively, try reloading SEEYOU</li>
+                              <li>If still not working, please go to the <a href="/downloads" style={{color:'#007AFF', textDecorationLine: 'underline'}} >downloads</a> page and reinstall SEEYOU </li>
+                              <li>After reinstalling SEEYOU, we suggest also restarting your computer </li>
+                        </ul>
+                      </Answer>
+                    </AccordionPanel>
+                  </>
+                )}
+              </AccordionItem>
+            </Accordion>
+
+            <Accordion allowMultiple paddingBottom="16px">
+              <AccordionItem
+                border={'none'}
+                borderRadius="12px"
+                backgroundColor="#ECF1FE"
+              >
+                {({ isExpanded }) => (
+                  <>
+                    <h2>
+                      <AccordionButton
+                        _hover={{
+                          backgroundColor: 'transparent',
+                          boxShadow: 'none',
+                        }}
+                        _focus={{
+                          boxShadow: 'none',
+                        }}
+                        paddingRight="40px"
                       >
                         <Box flex="1" textAlign="left">
                           <Questions>Is SEEYOU entirely free?</Questions>
@@ -87,6 +139,10 @@ function Acord() {
                           backgroundColor: 'transparent',
                           boxShadow: 'none',
                         }}
+                        _focus={{
+                          boxShadow: 'none',
+                        }}
+                        paddingRight="40px"
                       >
                         <Box flex="1" textAlign="left">
                           <Questions>How does SEEYOU make money?</Questions>
@@ -120,6 +176,10 @@ function Acord() {
                           backgroundColor: 'transparent',
                           boxShadow: 'none',
                         }}
+                        _focus={{
+                          boxShadow: 'none',
+                        }}
+                        paddingRight="40px"
                       >
                         <Box flex="1" textAlign="left">
                           <Questions>
@@ -211,6 +271,10 @@ function Acord() {
                           backgroundColor: 'transparent',
                           boxShadow: 'none',
                         }}
+                        _focus={{
+                          boxShadow: 'none',
+                        }}
+                        paddingRight="40px"
                       >
                         <Box flex="1" textAlign="left">
                           <Questions>Is storing conferences free?</Questions>
@@ -244,6 +308,10 @@ function Acord() {
                           backgroundColor: 'transparent',
                           boxShadow: 'none',
                         }}
+                        _focus={{
+                          boxShadow: 'none',
+                        }}
+                        paddingRight="40px"
                       >
                         <Box flex="1" textAlign="left">
                           <Questions>Is storing conferences safe?</Questions>
@@ -281,6 +349,10 @@ function Acord() {
                           backgroundColor: 'transparent',
                           boxShadow: 'none',
                         }}
+                        _focus={{
+                          boxShadow: 'none',
+                        }}
+                        paddingRight="40px"
                       >
                         <Box flex="1" textAlign="left">
                           <Questions>
@@ -321,6 +393,10 @@ function Acord() {
                           backgroundColor: 'transparent',
                           boxShadow: 'none',
                         }}
+                        _focus={{
+                          boxShadow: 'none',
+                        }}
+                        paddingRight="40px"
                       >
                         <Box flex="1" textAlign="left">
                           <Questions>
@@ -360,6 +436,10 @@ function Acord() {
                           backgroundColor: 'transparent',
                           boxShadow: 'none',
                         }}
+                        _focus={{
+                          boxShadow: 'none',
+                        }}
+                        paddingRight="40px"
                       >
                         <Box flex="1" textAlign="left">
                           <Questions>
@@ -398,6 +478,10 @@ function Acord() {
                           backgroundColor: 'transparent',
                           boxShadow: 'none',
                         }}
+                        _focus={{
+                          boxShadow: 'none',
+                        }}
+                        paddingRight="40px"
                       >
                         <Box flex="1" textAlign="left">
                           <Questions>
@@ -438,6 +522,10 @@ function Acord() {
                           backgroundColor: 'transparent',
                           boxShadow: 'none',
                         }}
+                        _focus={{
+                          boxShadow: 'none',
+                        }}
+                        paddingRight="40px"
                       >
                         <Box flex="1" textAlign="left">
                           <Questions>Can I make notes on my phone?</Questions>
@@ -450,7 +538,7 @@ function Acord() {
                       </AccordionButton>
                     </h2>
                     <AccordionPanel pb={4}>
-                      <Answer>Absolutely</Answer>
+                      <Answer>Starting from version 2.0 you can make notes on your phone</Answer>
                     </AccordionPanel>
                   </>
                 )}
@@ -471,6 +559,10 @@ function Acord() {
                           backgroundColor: 'transparent',
                           boxShadow: 'none',
                         }}
+                        _focus={{
+                          boxShadow: 'none',
+                        }}
+                        paddingRight="40px"
                       >
                         <Box flex="1" textAlign="left">
                           <Questions>Are the notes encrypted?</Questions>
@@ -504,6 +596,10 @@ function Acord() {
                           backgroundColor: 'transparent',
                           boxShadow: 'none',
                         }}
+                        _focus={{
+                          boxShadow: 'none',
+                        }}
+                        paddingRight="40px"
                       >
                         <Box flex="1" textAlign="left">
                           <Questions>
@@ -552,6 +648,10 @@ function Acord() {
                           backgroundColor: 'transparent',
                           boxShadow: 'none',
                         }}
+                        _focus={{
+                          boxShadow: 'none',
+                        }}
+                        paddingRight="40px"
                       >
                         <Box flex="1" textAlign="left">
                           <Questions>
@@ -588,6 +688,10 @@ function Acord() {
                           backgroundColor: 'transparent',
                           boxShadow: 'none',
                         }}
+                        _focus={{
+                          boxShadow: 'none',
+                        }}
+                        paddingRight="40px"
                       >
                         <Box flex="1" textAlign="left">
                           <Questions>
@@ -627,6 +731,10 @@ function Acord() {
                           backgroundColor: 'transparent',
                           boxShadow: 'none',
                         }}
+                        _focus={{
+                          boxShadow: 'none',
+                        }}
+                        paddingRight="40px"
                       >
                         <Box flex="1" textAlign="left">
                           <Questions>How do I download SEEYOU?</Questions>
@@ -665,6 +773,10 @@ function Acord() {
                           backgroundColor: 'transparent',
                           boxShadow: 'none',
                         }}
+                        _focus={{
+                          boxShadow: 'none',
+                        }}
+                        paddingRight="40px"
                       >
                         <Box flex="1" textAlign="left">
                           <Questions>When will SEEYOU be available?</Questions>
@@ -678,10 +790,7 @@ function Acord() {
                     </h2>
                     <AccordionPanel pb={4}>
                       <Answer>
-                        SEEYOU will be available for limited release in version
-                        1.0.1 in the first week of May 2022. Open release,
-                        including SEEYOU for Chromebook and Linux, is on August
-                        1st, 2022
+                      SEEYOU is available from August 1st 2022
                       </Answer>
                     </AccordionPanel>
                   </>
@@ -703,6 +812,10 @@ function Acord() {
                           backgroundColor: 'transparent',
                           boxShadow: 'none',
                         }}
+                        _focus={{
+                          boxShadow: 'none',
+                        }}
+                        paddingRight="40px"
                       >
                         <Box flex="1" textAlign="left">
                           <Questions>
@@ -744,6 +857,10 @@ function Acord() {
                           backgroundColor: 'transparent',
                           boxShadow: 'none',
                         }}
+                        _focus={{
+                          boxShadow: 'none',
+                        }}
+                        paddingRight="40px"
                       >
                         <Box flex="1" textAlign="left">
                           <Questions>
@@ -784,6 +901,10 @@ function Acord() {
                           backgroundColor: 'transparent',
                           boxShadow: 'none',
                         }}
+                        _focus={{
+                          boxShadow: 'none',
+                        }}
+                        paddingRight="40px"
                       >
                         <Box flex="1" textAlign="left">
                           <Questions>
@@ -799,8 +920,7 @@ function Acord() {
                     </h2>
                     <AccordionPanel pb={4}>
                       <Answer>
-                        Both are planned listed on reputable exchanges in the
-                        fall of 2022
+                      The SEUs are to be listed on a reputable exchange, followed by the common shares if and when suitable
                       </Answer>
                     </AccordionPanel>
                   </>
@@ -822,6 +942,10 @@ function Acord() {
                           backgroundColor: 'transparent',
                           boxShadow: 'none',
                         }}
+                        _focus={{
+                          boxShadow: 'none',
+                        }}
+                        paddingRight="40px"
                       >
                         <Box flex="1" textAlign="left">
                           <Questions>
@@ -857,6 +981,10 @@ function Acord() {
                           backgroundColor: 'transparent',
                           boxShadow: 'none',
                         }}
+                        _focus={{
+                          boxShadow: 'none',
+                        }}
+                        paddingRight="40px"
                       >
                         <Box flex="1" textAlign="left">
                           <Questions>

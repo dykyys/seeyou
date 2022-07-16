@@ -6,8 +6,9 @@ export const SupportSection = styled.footer`
   padding-top: 15px;
   padding-bottom: 15px;
   width: 100%;
-  background: rgba(197, 209, 241, 0.5);
+  background: rgba(255, 255, 255, 0.4);
   backdrop-filter: blur(25px);
+  border: 0.5px solid #EAE9FF;
 
   /* ${({ theme }) => theme.device.tablet} {
     bottom: 0px;
@@ -78,10 +79,12 @@ export const Box = styled.div`
 export const SupportUl = styled.ul`
   display: flex;
   margin: 0 auto;
+  
 `;
 export const SupportLi = styled.li`
   &:not(:last-child) {
     margin-right: 17px;
+    
   }
   ${({ theme }) => theme.device.tablet} {
     &:not(:last-child) {
@@ -97,11 +100,12 @@ export const SupportLi = styled.li`
   }
 `;
 export const BoxIMG = styled.div`
+  display: flex;
   align-items: center;
   margin: 0 auto;
   ${({ theme }) => theme.device.tablet} {
-    align-items: right;
-    margin: 0;
+
+
   }
   ${({ theme }) => theme.device.default} {
   }
@@ -144,3 +148,7 @@ export const Discriptionltd = styled.p`
 export const DiscriptionWithMargin = styled(Discription)`
   padding-bottom: 20px;
 `;
+
+export const Image = styled.img`
+filter: drop-shadow(0px 10.9453px 24.0796px rgba(112, 88, 255, 0.32));
+` 

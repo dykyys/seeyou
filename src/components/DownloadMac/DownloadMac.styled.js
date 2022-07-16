@@ -16,20 +16,27 @@ export const PopLink = styled.a`
 `;
 
 export const PopButton = styled.button`
-  display: inline-block;
-  width: 245px;
-  font-family: ${({ theme }) => theme.fonts.descr.semiBold};
+display: flex;
+text-align: center;
+width: 200px;
+font-family: ${({ theme }) => theme.fonts.descr.semiBold};
+padding: 14px 0;
+border-radius: 4px;
+color: ${({ theme }) => theme.colors.white};
+font-size: 14px;
+line-height: 1.25;
+
+background: ${({ theme }) => theme.colors.primary};
+
+${({ theme }) => theme.device.tablet} {
   padding: 14px 0;
-  border-radius: 4px;
-  color: ${({ theme }) => theme.colors.white};
+  text-align: center;
+  font-size: 14px;
+}
+${({ theme }) => theme.device.default} {
+  width: 245px;
   font-size: 16px;
-  line-height: 1.25;
-
-  background: ${({ theme }) => theme.colors.primary};
-
-  ${({ theme }) => theme.device.default} {
-    text-align: center;
-  }
+}
 `;
 export const PopupBox = styled.div`
   width: 239px;

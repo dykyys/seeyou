@@ -1,9 +1,21 @@
 import styled from 'styled-components';
 
+import Leaf2 from '../../../image/bg/leaf2_bg.svg';
+import Cloud from '../../../image/bg/cloud_bg.svg';
+import Cloud2 from '../../../image/bg/cloud2_bg.svg';
+import Cloud3 from '../../../image/bg/cloud3_bg.svg';
+import Sfera from '../../../image/bg/sfera_bg.svg';
+import Down from '../../../image/bg/cloudDown_bg.svg';
+
+
 export const Section = styled.section`
 padding: 30px 0px 40px;
   ${({ theme }) => theme.device.tablet} {
     padding: 40px 0px 60px;
+    background-repeat: no-repeat;
+    background-position: top 1000px left, top 1400px right, top 2400px right, top 250px right, bottom left 20%  ;
+    background-size: small;
+    background-image: url(${Cloud}), url(${Cloud2}), url(${Cloud3}), url(${Sfera}), url(${Down});
   }
   ${({ theme }) => theme.device.default} {
     padding: 50px 0px 101px;
@@ -100,7 +112,6 @@ export const ConferenceItem = styled.li`
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-
     &:nth-child(2n + 1) {
       flex-direction: row-reverse;
     }

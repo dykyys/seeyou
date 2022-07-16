@@ -1,4 +1,4 @@
-import { Title, Discription, Link, Section, GlobalBox,ButDiv } from '../Zoom/Zoom.styled';
+import { Title, Discription, Link, Section, GlobalBox,ButDiv } from '../More/More.styled';
 import Container from '../Container/Container.styled';
 
 

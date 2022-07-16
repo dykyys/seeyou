@@ -9,7 +9,7 @@ const About = () => {
   return (
     <>
       <AboutHero />
-      <OurLeadership />
+      <OurLeadership/>
       <Support />
       {/* <MediaQuery device={'mobile'}>
         <DownloadMobileFooter />

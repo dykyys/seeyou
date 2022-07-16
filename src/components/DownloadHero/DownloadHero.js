@@ -14,14 +14,16 @@ import {
   DownloadMobileList,
   DownloadMobileItem,
   DownloadMobileLink,
+  PopButton
 } from './DownloadHero.styled.js';
 
 import HeroIllustration from 'image/hero/hero.svg';
 import DownloadMobiles from 'image/downloads/downloadsMobile.svg';
 import DownloadAppStoreBtn from 'image/downloads/downloadAppStoreBtn.svg';
 import DownloadPlayMarketBtn from 'image/downloads/downloadPlayMarketBtn.svg';
-import DownloadMac from '../DownloadMac';
-import DownloadWin from '../DownloadWin';
+
+import Mac from '../../image/Button/Mac.svg'
+import Win from '../../image/Button/Win.svg'
 //Androin//Windows
 const DownloadHero = () => {
   return (
@@ -38,10 +40,18 @@ const DownloadHero = () => {
           </HeroDiscription>
           <DownloadList>
             <DownloadItem>
-              <DownloadMac />
+                              <PopButton href='https://downloads.seeyou.eu/desktop/mac/SEEYOU-latest.dmg'><div style={{
+                        display: 'flex',
+                        margin: '0 auto',
+                        alignItems: 'center'
+                        }}><img src={Mac}></img><p style={{ marginLeft:'10px'}}>SEEYOU for Mac</p></div></PopButton>
             </DownloadItem>
             <DownloadItem>
-              <DownloadWin />
+                      <PopButton href='https://downloads.seeyou.eu/desktop/windows/SEEYOU-latest.exe'><div style={{
+               display: 'flex',
+                margin: '0 auto',
+                alignItems: 'center'
+                }}><img src={Win}></img><p style={{ marginLeft:'10px'}}>SEEYOU for Windows</p></div></PopButton>
             </DownloadItem>
           </DownloadList>
         </GlobalBox>
@@ -59,12 +69,12 @@ const DownloadHero = () => {
           </DownloadMobileDiscription>
           <DownloadMobileList>
             <DownloadMobileItem>
-              <DownloadMobileLink href='mailto:hello@seeyou.eu?subject=Please add me to the SEEYOU pre-launch version 1.0.1 priority list" target="_self"'>
+              <DownloadMobileLink href='https://apps.apple.com/no/app/seeyou/id1622041916'>
                 <img src={DownloadAppStoreBtn} alt="Download App Store Btn" />
               </DownloadMobileLink>
             </DownloadMobileItem>
             <DownloadMobileItem>
-              <DownloadMobileLink href='mailto:hello@seeyou.eu?subject=Please add me to the SEEYOU pre-launch version 1.0.1 priority list" target="_self"'>
+              <DownloadMobileLink href='https://play.google.com/store/apps/details?id=eu.seeyou.app&gl=IE'>
                 <img
                   src={DownloadPlayMarketBtn}
                   alt="Download Play Market Btn"

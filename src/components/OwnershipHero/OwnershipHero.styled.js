@@ -1,4 +1,27 @@
 import styled from 'styled-components';
+import Cloud from '../../image/bg/cloud_bg.svg';
+import Cloud2 from '../../image/bg/cloud2_bg.svg';
+import Sfera2 from '../../image/bg/Sfers_left_coowner.svg';
+import Sfera from '../../image/bg/sfera_bg.svg';
+import Leaf from '../../image/bg/leaf_coowner.svg';
+
+export const Section = styled.section`
+padding: 100px 0px 100px;
+
+  ${({ theme }) => theme.device.tablet} {
+    padding: 180px 0px 100px;
+    background-repeat: no-repeat;
+    background-position: top 7% left, top 20% right, top 64% left, top 82% right, top 95% left  ;
+    background-size: small;
+    background-image: url(${Leaf}), url(${Sfera}), url(${Cloud}), url(${Cloud2}), url(${Sfera2}) ;
+  }
+  ${({ theme }) => theme.device.default} {
+    
+  }
+  ${({ theme }) => theme.device.desktop} {
+    
+  }
+`;
 
 export const ConferenceTitle = styled.h3`
   font-family: ${({ theme }) => theme.fonts.title.bold};
@@ -29,22 +52,18 @@ export const SectionTitle = styled.h2`
   font-size: 30px;
   line-height: 1,2;
   text-align: left;
-  margin-top: 50px;
   margin-bottom: 8px;
   color: ${({ theme }) => theme.colors.black};
   ${({ theme }) => theme.device.tablet} {
     font-size: 35px;
-    margin-top: 80px;
     text-align: center;
   }
   ${({ theme }) => theme.device.default} {
     font-size: 35px;
-    margin-top: 100px;
   }
   ${({ theme }) => theme.device.desktop} {
     font-size: 45px;
-    margin-top: 132px;
-  }
+ }
 `;
 export const SectionTitleSub = styled.h2`
   font-family: ${({ theme }) => theme.fonts.title.regular};
@@ -117,22 +136,27 @@ export const ConferenceDiscriptionSub = styled.p`
   }
 `;
 export const OwnerUl = styled.ul`
-  padding-bottom: 20px;
+
   ${({ theme }) => theme.device.tablet} {
-    padding-bottom: 60px;
+   
   }
   ${({ theme }) => theme.device.default} {
-    padding-bottom: 60px;
+
   }
   ${({ theme }) => theme.device.desktop} {
-    padding-bottom: 75px;
+    
   }
 `
 export const ConferenceItem = styled.li`
-  margin-bottom: 100px;
+
+
   align-items: center;
+  &:not(:last-child) {
+    margin-bottom: 80px;
+  }
+    
   ${({ theme }) => theme.device.tablet} {
-    margin-bottom: 70px;
+
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -140,9 +164,11 @@ export const ConferenceItem = styled.li`
     &:nth-child(2n) {
     flex-direction: row-reverse;
     }
+    &:not(:last-child) {
+      margin-bottom: 120px;
+    }
   }
   ${({ theme }) => theme.device.default} {
-    margin-bottom: 70px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -152,8 +178,7 @@ export const ConferenceItem = styled.li`
     }
   }
   ${({ theme }) => theme.device.desktop} {
-    margin-bottom: 70px;
-    
+
   }
 `;
 export const Image = styled.img`
@@ -183,3 +208,13 @@ export const DivImg = styled.div`
     padding: 40px 40px;
   }
 `
+export const LLC = styled.h3`
+  text-align: center;
+  margin: 0 auto;
+  font-family: ${({ theme }) => theme.fonts.descr.regular};
+  font-size: 12px;
+  line-height: 1.22;
+  padding-top:60px;
+  margin-bottom: 80px;
+  color: ${({ theme }) => theme.colors.black_btn};
+`;
