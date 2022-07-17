@@ -22,8 +22,8 @@ import StickyImg from 'image/conference/stickyNote.png';
 import Library from 'image/conference/free.png';
 import Rewind from 'image/conference/real.png';
 import Calls from 'image/conference/Truly.png';
-import HomeScreen from 'image/conference/OneStop.png';
-import BrandsLogo from 'image/conference/BrandsLogo.png';
+import HomeScreen from 'image/conference/oneStop.png';
+import BrandsLogo from 'image/conference/brandsLogo.png';
 import BrandsLogoMobile from 'image/conference/BrandsLogoMobile.png';
 import coOwnership from 'image/conference/freeCoowner.png';
 import MediaQuery from '../../MediaQuery';
@@ -35,7 +35,7 @@ const Conference = () => {
         <ul>
           <ConferenceItem>
             <GlobalImage>
-            <Image src={SelfieImg} alt="selfie in seeyou" />
+              <Image src={SelfieImg} alt="selfie in seeyou" />
             </GlobalImage>
             <GlobalBox>
               <SubTitle>Selfie Loop ™</SubTitle>
@@ -49,7 +49,7 @@ const Conference = () => {
           </ConferenceItem>
           <ConferenceItem>
             <GlobalImage>
-            <Image src={StickyImg}  alt="selfie in seeyou" />
+              <Image src={StickyImg} alt="selfie in seeyou" />
             </GlobalImage>
             <GlobalBox>
               <SubTitle>Linked Notes</SubTitle>
@@ -68,7 +68,7 @@ const Conference = () => {
           </ConferenceItem>
           <ConferenceItem>
             <GlobalImage>
-              <Image src={Library}  alt="Library" />
+              <Image src={Library} alt="Library" />
             </GlobalImage>
             <GlobalBox>
               <SubTitle>
@@ -84,8 +84,8 @@ const Conference = () => {
             </GlobalBox>
           </ConferenceItem>
           <ConferenceItem>
-          <GlobalImage>
-            <Image src={Rewind}  alt="Rewind" />
+            <GlobalImage>
+              <Image src={Rewind} alt="Rewind" />
             </GlobalImage>
             <GlobalBox>
               <SubTitle>Real-Time Rewind</SubTitle>
@@ -97,8 +97,8 @@ const Conference = () => {
             </GlobalBox>
           </ConferenceItem>
           <ConferenceItem>
-          <GlobalImage>
-            <Image src={Calls}  alt="Calls" />
+            <GlobalImage>
+              <Image src={Calls} alt="Calls" />
             </GlobalImage>
             <GlobalBox>
               <SubTitle>
@@ -121,7 +121,7 @@ const Conference = () => {
           </ConferenceItem>
           <ConferenceItem>
             <GlobalImage>
-              <Image src={HomeScreen}  alt="HomeScreen" />
+              <Image src={HomeScreen} alt="HomeScreen" />
             </GlobalImage>
             <div>
               <BoxBeforEnd>
@@ -151,14 +151,12 @@ const Conference = () => {
                 <MediaQuery device={'default'}>
                   <BrandsLogos src={BrandsLogo} alt="BrandsLogo" />
                 </MediaQuery>
-                
               </BoxBeforEnd>
-              
             </div>
           </ConferenceItem>
           <ConferenceItem>
             <GlobalImage>
-              <Image src={coOwnership} alt="coOwnership"/>
+              <Image src={coOwnership} alt="coOwnership" />
             </GlobalImage>
             <GlobalBox>
               <SubTitle>
@@ -166,15 +164,19 @@ const Conference = () => {
                 <br /> Program
               </SubTitle>
               <DiscriptionWithMargin>
-              SEEYOU will be partly user-owned. An equivalent of 10% of the original 2.5 million
-               shares will be gifted to active* users and recruiters during the first 25 months, 
-               starting from September 2022
+                SEEYOU will be partly user-owned. An equivalent of 10% of the
+                original 2.5 million shares will be gifted to active* users and
+                recruiters during the first 25 months, starting from September
+                2022
               </DiscriptionWithMargin>
               <DiscriptionSub>(*Terms to be announced)</DiscriptionSub>
             </GlobalBox>
           </ConferenceItem>
           <ConferenceItem>
-              <LLC>SEEYOU LLC, The CHQ Building, Custom House Quay, Dublin 1, D01 Y6H7 Ireland</LLC>
+            <LLC>
+              SEEYOU LLC, The CHQ Building, Custom House Quay, Dublin 1, D01
+              Y6H7 Ireland
+            </LLC>
           </ConferenceItem>
         </ul>
       </Container>

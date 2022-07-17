@@ -9,15 +9,15 @@ import GlobalFonts from './fonts/fonts.styled';
 import 'modern-normalize/modern-normalize.css';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <BrowserRouter>
-      <ThemeProvider theme={theme}>
-        <ChakraProvider>
-          <GlobalFonts />
-          <App />
-        </ChakraProvider>
-      </ThemeProvider>
-    </BrowserRouter>
-  </React.StrictMode>,
+  // <React.StrictMode>
+  <BrowserRouter>
+    <ThemeProvider theme={theme}>
+      <ChakraProvider>
+        <GlobalFonts />
+        <App />
+      </ChakraProvider>
+    </ThemeProvider>
+  </BrowserRouter>,
+  // </React.StrictMode>,
   document.getElementById('root')
 );
