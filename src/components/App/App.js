@@ -23,7 +23,12 @@ import Delete from '../../pages/DeleteAccount';
 import End from '../../pages/EndEncryption';
 import Problem from '../../pages/Problem';
 
+import googleAnalytics from '../../hooks/GoogleAnalytics.js';
+
 function App() {
+
+    googleAnalytics();
+
   return (
     <Routes>
       <Route path="/" element={<Layout />}>

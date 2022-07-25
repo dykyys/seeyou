@@ -107,7 +107,13 @@ const OwnerHero = () => {
               <ConferenceTitle>Creating a Global Community</ConferenceTitle>
 
               <ConferenceDiscription>
+<<<<<<< Updated upstream
               SEEYOU will launch in beta in English, with another 48 languages coming by version 2.0 in February 2023. We are then also expanding to Linux and Chromebooks
+=======
+                SEEYOU will launch in beta in English, with another 48 languages
+                coming by version 2.0 in March 2023. We are then also
+                expanding to Linux and Chromebooks
+>>>>>>> Stashed changes
               </ConferenceDiscription>
               <ConferenceDiscription>
               SEEYOU is only equitable if wholly free and truly global. Spreading the app around the world matters, and you will therefore get 10 Slices for every new user you recruit

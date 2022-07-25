@@ -790,7 +790,7 @@ function Acord() {
                     </h2>
                     <AccordionPanel pb={4}>
                       <Answer>
-                      SEEYOU is available from August 1st 2022
+                      SEEYOU Beta version 1.1, in the first week of August 2022. On October 1st, 2022, we release v1.2 with a new app home screen and the option to use the SEEYOU Toolbar outside of video conferences. SEEYOU 2.0 releases on March 1st, 2023, bringing us out of Beta for the personal-use version and into Beta for the corporate version. The option to pay for an ad-free personal version of SEEYOU will also be available
                       </Answer>
                     </AccordionPanel>
                   </>

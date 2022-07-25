@@ -15,6 +15,7 @@ import GooglePlay from 'image/support/Google_play_footer.svg';
 import MacOS from 'image/support/MacOS_footer.svg';
 import Windows from 'image/support/Windows_footer.svg';
 import Webex from 'image/support/Webex.svg';
+import Zoom from 'image/support/Zoom.svg';
 
 const Support = () => {
   return (
@@ -71,6 +72,12 @@ const Support = () => {
               </a>
               {/* <Play src={PlayImg} /> */}
             </SupportLi>
+            <SupportLi>
+              <a href='https://marketplace.zoom.us/apps/XA5ZOXzyQl-DumfjdGYa_Q'>
+                <Image src={Zoom} htmlWidth="150px" alt="Webex" />
+              </a>
+              {/* <Play src={PlayImg} /> */}
+            </SupportLi>
           </SupportUl>
         </BoxIMG>
         </MediaQuery>
@@ -104,6 +111,12 @@ const Support = () => {
             <SupportLi>
               <a href='https://apphub.webex.com/applications/seeyou-seeyou'>
                 <Image src={Webex} htmlWidth="150px" alt="Webex" />
+              </a>
+              {/* <Play src={PlayImg} /> */}
+            </SupportLi>
+            <SupportLi>
+              <a href='https://marketplace.zoom.us/apps/XA5ZOXzyQl-DumfjdGYa_Q'>
+                <Image src={Zoom} htmlWidth="150px" alt="Webex" />
               </a>
               {/* <Play src={PlayImg} /> */}
             </SupportLi>
