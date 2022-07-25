@@ -790,7 +790,7 @@ function Acord() {
                     </h2>
                     <AccordionPanel pb={4}>
                       <Answer>
-                      SEEYOU Beta version 1.1, in the first week of August 2022. On October 1st, 2022, we release v1.2 with a new app home screen and the option to use the SEEYOU Toolbar outside of video conferences. SEEYOU 2.0 releases on March 1st, 2023, bringing us out of Beta for the personal-use version and into Beta for the corporate version. The option to pay for an ad-free personal version of SEEYOU will also be available
+                      SEEYOU will be partly user-owned. An equivalent of 5% of the original 2.5 million shares will be gifted to active* users and recruiters during the first 25 months from February 2023
                       </Answer>
                     </AccordionPanel>
                   </>
@@ -819,8 +819,7 @@ function Acord() {
                       >
                         <Box flex="1" textAlign="left">
                           <Questions>
-                            Are you really giving away for free an equivalent of
-                            10% of the original 2.5 million shares to the users?
+                          Are you giving away an equivalent of 5% of the original 2.5 million shares to the users?
                           </Questions>
                         </Box>
                         {isExpanded ? (
@@ -832,10 +831,7 @@ function Acord() {
                     </h2>
                     <AccordionPanel pb={4}>
                       <Answer>
-                        Yes, we are, we want to create a truly equitable global
-                        community. And giving back part of the company to our
-                        users seems the right thing to do, so that is what we
-                        are doing
+                      Yes, we are. We want to create a genuinely equitable global community. And giving back part of the company to our users seems the right thing to do, so that is what we are doing
                       </Answer>
                     </AccordionPanel>
                   </>
@@ -960,7 +956,7 @@ function Acord() {
                       </AccordionButton>
                     </h2>
                     <AccordionPanel pb={4}>
-                      <Answer>Yes, 100 equity tokens equal one share</Answer>
+                      <Answer>Yes, 200 equity tokens equal one share</Answer>
                     </AccordionPanel>
                   </>
                 )}
