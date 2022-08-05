@@ -16,8 +16,8 @@ import {
 import Container from '../Container';
 import GlobalImage from '../GlobalImage';
 import GlobalBox from '../GlobalBox';
-import Equit from 'image/co-owners/Equit.png';
-import Stock from 'image/co-owners/Stock.png';
+import Equit from 'image/co-owners/Equit.svg';
+import Stock from 'image/co-owners/stock.svg';
 import Slice from 'image/co-owners/Slice.png';
 import Earn from 'image/co-owners/Earning.png';
 import Create from 'image/co-owners/Creat.png';

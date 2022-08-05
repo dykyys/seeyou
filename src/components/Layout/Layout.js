@@ -7,8 +7,10 @@ import CookieConsent from "react-cookie-consent";
 const Layout = () => {
   return (
     <>
+
       <AppBar />
       <Outlet />
+      {/* 
       <CookieConsent
           location="bottom"
           buttonText="Sure"
@@ -20,6 +22,7 @@ const Layout = () => {
           This website uses cookies to enhance the user experience.{" "}
           <span style={{ fontSize: "10px" }}>This bit of text is smaller :O</span>
         </CookieConsent>
+        */}
     </>
   );
 };

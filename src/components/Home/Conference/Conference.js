@@ -25,7 +25,7 @@ import Calls from 'image/conference/Truly.png';
 import HomeScreen from 'image/conference/OneStop.png';
 import BrandsLogo from 'image/conference/BrandsLogo.png';
 import BrandsLogoMobile from 'image/conference/BrandsLogoMobile.png';
-import coOwnership from 'image/conference/freeCoowner.png';
+import coOwnership from 'image/conference/free.svg';
 import MediaQuery from '../../MediaQuery';
 const Conference = () => {
   return (

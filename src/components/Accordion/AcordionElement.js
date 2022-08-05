@@ -325,9 +325,7 @@ function Acord() {
                     </h2>
                     <AccordionPanel pb={4}>
                       <Answer>
-                        Your conferences are stored on your personal Youtube
-                        Studios account, ensuring you benefit from all the
-                        safety features built into YouTube
+                      Your conferences are stored on your computer or your personal YouTube Studios account, ensuring you benefit from all the safety features built into YouTube
                       </Answer>
                     </AccordionPanel>
                   </>
@@ -790,7 +788,7 @@ function Acord() {
                     </h2>
                     <AccordionPanel pb={4}>
                       <Answer>
-                      SEEYOU will be partly user-owned. An equivalent of 5% of the original 2.5 million shares will be gifted to active* users and recruiters during the first 25 months from February 2023
+                      SEEYOU Beta version 1.1, in the first week of August 2022. On October 1<sup>st</sup>, 2022, we release v1.2 with a new app home screen and the option to use the SEEYOU Toolbar outside of video conferences. SEEYOU 2.0 releases on February 28<sup>th</sup>, 2023, bringing us out of Beta for the personal-use version and into Beta for the enterprise version. The option to pay for an ad-free personal version of SEEYOU will also be available
                       </Answer>
                     </AccordionPanel>
                   </>

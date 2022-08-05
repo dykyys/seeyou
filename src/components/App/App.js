@@ -1,4 +1,4 @@
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, Navigate } from 'react-router-dom';
 import Layout from '../../components/Layout';
 import About from '../../pages/About';
 // import Products from '../../pages/Products';
@@ -7,8 +7,8 @@ import Ownership from '../../pages/Ownership';
 import Help from '../../pages/Help';
 import Download from '../../pages/Download';
 import Release from '../../pages/Release';
-// import Privacy from '../../pages/Privacy';
-// import Terms from '../../pages/Terms';
+import Privacy from '../../pages/Privacy';
+import Terms from '../../pages/Terms';
 import Report from '../../pages/Report';
 import Suggest from '../../pages/Suggest';
 import Zoom from '../../pages/Zoom';
@@ -24,7 +24,7 @@ import End from '../../pages/EndEncryption';
 import Problem from '../../pages/Problem';
 
 import googleAnalytics from '../../hooks/GoogleAnalytics.js';
-
+import privacyStatement from '../../PDF/SEEYOU_PRIVACY_STATEMENT.pdf';
 function App() {
 
     googleAnalytics();
@@ -39,10 +39,10 @@ function App() {
         <Route path="faq" element={<Help />} />
         <Route path="downloads" element={<Download />} />
         <Route path="release" element={<Release />} />
-        {/* <Route path="privacy" element={<Privacy />} /> */}
-        {/* <Route path="terms" element={<Terms />} /> */}
+        <Route path="terms" element={<Terms />} />
         <Route path="problem" element={<Report />} />
         <Route path="feature" element={<Suggest />} />
+        <Route path="privacy" element={<Privacy/>} />
         <Route path="providers-zoom" element={<Zoom />} />
         <Route path="providers-webex" element={<Webex />} />
         <Route path="providers-google" element={<Google />} />

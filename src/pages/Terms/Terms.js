@@ -6,22 +6,13 @@
 // import MediaQuery from '../../components/MediaQuery';
 // import TermsOfService from '../../PDF/SEEYOU_TERMS_OF_SERVICE.pdf';
 import { ScrollToTop } from 'hooks/ScrollToTop';
-
+import termsOfService from '../../PDF/SEEYOU_TERMS_OF_SERVICE.pdf';
 const Terms = () => {
   ScrollToTop();
+  window.location.replace(termsOfService);
   return (
-    <div>terms</div>
-    // <>
-    //   <main>
-
-    //     <TermsHero />
-    //     <TermsDescr />
-    //     <MediaQuery device={'mobile'}>
-    //       <DownloadMobileFooter />
-    //     </MediaQuery>
-    //   </main>
-    //   <Footer />
-    // </>
+    <>
+    </>
   );
 };
 
